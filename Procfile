@@ -1,0 +1,1 @@
+worker: java -jar renz-bot-0.1.4.jar
