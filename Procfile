@@ -1,1 +1,1 @@
-worker: java -jar renz-bot-0.1.5.jar
+worker: java -jar RenzBot-1.0.0.jar
