@@ -1,0 +1,549 @@
+{
+    "info":
+    {
+        "categories": "4",
+        "00": 
+        {
+        "name": "Geography",
+        "easy": "2",
+        "average": "2",
+        "difficult": "2"
+        },
+        "01": 
+        {
+        "name": "Mathematics",
+        "easy": "2",
+        "average": "2",
+        "difficult": "2"
+        },
+        "02": 
+        {
+        "name": "Biology",
+        "easy": "2",
+        "average": "2",
+        "difficult": "2"
+        },
+        "03": 
+        {
+        "name": "Celebrities",
+        "easy": "2",
+        "average": "2",
+        "difficult": "2"
+        }
+    },
+    
+    "questions": 
+    {
+        "00": 
+        {
+            "easy": 
+           {
+            "000": "In what continent is Argentina located?",
+            "001": "What is the capital of Malaysia?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "Which of the following is not among the five oceans of the world?",
+            "001": "In what Philippine region is the Province of Apayao located?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "Which of these island countries is located in the Caribbean?",
+            "001": "In what Indian state is the Taj Mahal located?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        },
+        "01":
+        {
+            "easy": 
+           {
+            "000": "The value of 7 in 716 is ＿＿＿.",
+            "001": "Known as the arithmetic average, this is the value obtained by dividing the sum of several quantities by their number (N).",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "This property states that rearranging the parentheses in an expression will not change the result.",
+            "001": "Any statement that can be demonstrated to be true by accepted mathematical operations and arguments is called a?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "What are the first 10 digits of pi?",
+            "001": "This states that the number of positive roots of a polynomial p(x) with real coefficients does not exceed the number of sign changes of the nonzero coefficients of p(x).",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+         },
+        "02": 
+        {
+            "easy": 
+           {
+            "000": "Which organelle is known as the powerhouse of the cell?",
+            "001": "What does DNA stand for?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "In DNA, what nucleotide base does guanine always pair or bond with?",
+            "001": "Who is considered to be the father of biology?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "What is the scientific name of true jellyfishes?",
+            "001": "The islets of Langerhans are also called the ＿＿＿＿＿＿＿ islets.",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        },
+        "03":
+        {
+            "easy": 
+           {
+            "000": "Who starred as Iron Man in Marvel's Iron Man (2008)?",
+            "001": "She is known as the Broadway Diva from the Philippines.",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "To what was Amber Heard's name changed to on her IMDb page?",
+            "001": "wala akong maisip na tanong",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "What is the full name of Kuya Kim?",
+            "001": "Rodel Pacheco Nacianceno is most commonly known as?",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+         }
+    },
+    "choices":
+    {
+        "00": 
+        {
+            "easy": 
+           {
+            "000": [ "Asia", "Europe", "North America", "South America" ],
+            "001": [ "Kuala Lumpur", "Kelang", "Malacca", "Jakarta" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "average": 
+           {
+            "000": [ "Atlantic", "American", "Pacific", "Indian" ],
+            "001": [ "CALABARZON", "Cordillera Administrative Region", "Ilocos Region", "Cagayan Valley" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "difficult": 
+           {
+            "000": [ "United Kingdom", "New Zealand", "Barbados", "Sri Lanka" ],
+            "001": [ "Telangana", "Uttar Pradesh", "Punjab", "Gujarat" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           }
+        },
+        "01": 
+        {
+            "easy": 
+           {
+            "000": [ "100", "70", "700", "7" ],
+            "001": [ "Mean", "Median", "Mode", "Variance" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "average": 
+           {
+            "000": [ "Associative Property", "Commutative Property", "Distributive Property", "Transitive Property" ],
+            "001": [ "Postulate", "Definition", "Theorem", "Conjuncture" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "difficult": 
+           {
+            "000": [ "3.1415926574", "3.1415926435", "3.1415926535", "3.1415926474" ],
+            "001": [ "Kepler conjecture", "Ranger's law", "Fermat's Last Theorem", "Descartes's rule of signs" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           }
+        },
+        "02": 
+        {
+            "easy": 
+           {
+            "000": [ "Nucleus", "Mitochondria", "Cytoplasm", "Membrane" ],
+            "001": [ "Dinucleic acid", "Deoxynitrogenous acid", "Dinitronucleic acid", "Deoxyribonucleic acid" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "average": 
+           {
+            "000": [ "Cytosine", "Guanine", "Adenine", "Uracil" ],
+            "001": [ "Plato", "Pythagoras", "Socrates", "Aristotle" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "difficult": 
+           {
+            "000": [ "Aurelia aurita", "Hydrozoa", "Scyphozoa", "Cnidaria" ],
+            "001": [ "Langerhans", "Pulmonary", "Endocrine", "Pancreatic" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           }
+        },
+        "03": 
+        {
+            "easy": 
+           {
+            "000": [ "Victor Magtanggol", "Robert Downey Jr.", "Bruce Wayne", "Tom Cruise" ],
+            "001": [ "Lea Salonga", "KZ Tandingan", "Regine Velasquez", "Sarah Geronimo" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "average": 
+           {
+            "000": [ "Amber Bird", "Amber Turd", "Amber Head", "Amber Beard" ],
+            "001": [ "a", "b", "c", "d" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           },
+            "difficult": 
+           {
+            "000": [ "Jose Ilagan Atienza", "Alejandro Ilagan Atienza", "Kim Ilagan Atienza", "Lito Ilagan Atienza" ],
+            "001": [ "Coco Martin", "Robin Padilla", "John Lloyd Cruz", "Rodel Naval" ],
+            "002": [ "a", "b", "c", "d" ],
+            "003": [ "a", "b", "c", "d" ],
+            "004": [ "a", "b", "c", "d" ],
+            "005": [ "a", "b", "c", "d" ],
+            "006": [ "a", "b", "c", "d" ],
+            "007": [ "a", "b", "c", "d" ],
+            "008": [ "a", "b", "c", "d" ],
+            "009": [ "a", "b", "c", "d" ]
+           }
+        }
+    },
+    
+    "answer":
+    {
+        "00": 
+        {
+            "easy": 
+           {
+            "000": "d",
+            "001": "a",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "b",
+            "001": "b",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "c",
+            "001": "b",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        },
+        "01": 
+        {
+            "easy": 
+           {
+            "000": "c",
+            "001": "a",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "a",
+            "001": "c",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "c",
+            "001": "d",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        },
+        "02": 
+        {
+            "easy": 
+           {
+            "000": "b",
+            "001": "d",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "a",
+            "001": "d",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "c",
+            "001": "d",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        },
+        "03": 
+        {
+            "easy": 
+           {
+            "000": "b",
+            "001": "a",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "average": 
+           {
+            "000": "b",
+            "001": "e",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           },
+            "difficult": 
+           {
+            "000": "b",
+            "001": "a",
+            "002": "e",
+            "003": "e",
+            "004": "e",
+            "005": "e",
+            "006": "e",
+            "007": "e",
+            "008": "e",
+            "009": "e"
+           }
+        }
+    }
+}
