@@ -1,0 +1,848 @@
+{
+"about":
+	{
+	"name":"about",
+	"globalname":"about",
+	"category":"General",
+	"description":"**shows information about the bot**",
+	"usage":"about"
+	},
+
+"giveaway":
+	{
+	"name":"giveaway",
+	"globalname":"giveaway",
+	"category":"General",
+	"description":"**commands for the usage and management of giveaways**
+	<:Reply:986293903131050045>!! mangyaring tandaan na ang (mga) utos na ito ay kasalukuyang nasa proseso ng pagsasaayos, at wala pa sa pangwakas nitong anyo
+	<:Reply:986293903131050045>!! maaaring magkaroon ng mga pagbabago sa mga utos na ito nang walang pahintulot o anumang abiso
+	<:Reply:986293903131050045>!! sumangguni sa mga opisyal na pahayag ng tagapagdebelop ukol dito para sa karagdagang impormasyon",
+	"usage":"giveaway <subcommand>"
+	},
+
+"help":
+	{
+	"name":"help",
+	"globalname":"help",
+	"category":"General",
+	"description":"**shows help information about bot commands and command categories**",
+	"usage":"help [category|command]",
+	"options":
+		"
+		• **category**
+		<:Reply:986293903131050045>a command category (example: `fun`)
+		• **command**
+		<:Reply:986293903131050045>a bot command (example: `omikuji`)
+		"
+	},
+
+"message":
+	{
+	"name":"message",
+	"globalname":"message",
+	"category":"General",
+	"description":"**sends a private message to a user**",
+	"usage":"message <ID of recepient> <message>",
+	"options":
+		"
+		• **ID of recepient**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user*
+		<:Reply:986293903131050045>example: `527828928803373065`
+		• **mensahe**
+		ang mensahe na ipadadala sa tinukoy na user
+		"
+	},
+
+"poll":
+	{
+	"name":"poll",
+	"globalname":"poll",
+	"category":"General",
+	"description":"**makes a poll wherein users can vote through message reactions**",
+	"usage":"poll <message> [emotes{[emotes]}]"
+	},
+
+"profile":
+	{
+	"name":"profile",
+	"globalname":"profile",
+	"category":"General",
+	"description":"**shows the profile of a Discord user**",
+	"usage":"profile <ID|Mention|Tag>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"purge":
+	{
+	"name":"purge",
+	"globalname":"purge",
+	"category":"General",
+	"description":"**deletes a specified number of messages from a channel**",
+	"usage":"purge [number]",
+	"options":
+		"
+		• **number**
+		<:Reply:986293903131050045>ang bilang ng mensahe na buburahin mula sa channel
+		<:Reply:986293903131050045>ang bilang na ito ay kinakailangang hindi bababa sa `2` at hindi tataas sa `99`
+		"
+	},
+"ping":
+	{
+	"name":"ping",
+	"globalname":"ping",
+	"category":"General",
+	"description":"**shows the bot's latency**",
+	"usage":"ping"
+	},
+"server":
+	{
+	"name":"server",
+	"globalname":"server",
+	"category":"General",
+	"description":"**shows information about a Discord server**",
+	"usage":"server <ID>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the *ID* of a Discord server (example: `926729522768912444`)
+		"
+	},
+"settings":
+	{
+	"name":"settings",
+	"globalname":"settings",
+	"category":"General",
+	"description":"**shows the bot's settings for the current server**",
+	"usage":"settings"
+	},
+
+
+"choose":
+	{
+	"name":"choose",
+	"globalname":"choose",
+	"category":"Fun",
+	"description":"**chooses one from a specified pool of objects**",
+	"usage":"choose [choices]",
+	"options":
+		"
+		• **choices**
+		<:Reply:986293903131050045>ang mga opsyon na pagpipilian
+		<:Reply:986293903131050045>nakahiwalay ang bawat opsyon sa isa't isa sa pamamagitan ng mga kuwit (`,`)
+		"
+	},
+"hangman":
+	{
+	"name":"hangman",
+	"globalname":"hangman",
+	"category":"Fun",
+	"description":"**play a game of hangman**
+
+		__**How to Play**__
+		The main goal is to find the hidden word, phrase, or sentence.
+		The game ends once the hidden word/phrase/sentence has been guessed.
+		Players will earn points depending on the number of letters that they were able to reveal.
+
+		__**Gamemodes**__
+		:man: **Solo**
+		<:Reply:986293903131050045>One player. The bot thinks of a hidden word. The player will guess the word.
+		:crossed_swords: **Duo** `Version 2.1+`
+		<:Reply:986293903131050045>Two players. Players must come up with a hidden word that must be guessed by the other player.",
+	"usage":"hangman [ \"start\" | \"stop\" ]",
+	"options":
+		"
+		• **\"start\"**
+		<:Reply:986293903131050045>start a game of hangman
+		• **\"stop\"**
+		<:Reply:986293903131050045>stops the game of hangman that you have started
+		"
+	},
+"highlow":
+	{
+	"name":"highlow",
+	"globalname":"highlow",
+	"category":"Fun",
+	"description":"**start a game of highlow**",
+	"usage":"highlow"
+	},
+"howbanal":
+	{
+	"name":"howbanal",
+	"globalname":"howbanal",
+	"category":"Fun",
+	"description":"**measures how holy a user is**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"howbanal [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"howgay":
+	{
+	"name":"howgay",
+	"globalname":"howgay",
+	"category":"Fun",
+	"description":"**measures how gay a user is**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"howgay [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"howhorny":
+	{
+	"name":"howhorny",
+	"globalname":"howhorny",
+	"category":"Fun",
+	"description":"**measures how horny a user is**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"howhorny [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"hownpa":
+	{
+	"name":"hownpa",
+	"globalname":"hownpa",
+	"category":"Fun",
+	"description":"**measures the probability that a user is a member of the NPA**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"hownpa [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"howpretty":
+	{
+	"name":"howpretty",
+	"globalname":"howpretty",
+	"category":"Fun",
+	"description":"**measures how pretty a user is**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"howpretty [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"howsus":
+	{
+	"name":"howsus",
+	"globalname":"howsus",
+	"category":"Fun",
+	"description":"**measures how sus a user is**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"howsus [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"lenny":
+	{
+	"name":"lenny",
+	"globalname":"lenny",
+	"category":"Fun",
+	"description":"**( ͡° ͜ʖ ͡°)**",
+	"usage":"lenny"
+	},
+"ligtaspoints":
+	{
+	"name":"ligtaspoints",
+	"globalname":"ligtaspoints",
+	"category":"Fun",
+	"description":"**displays the Ligtas Points and Kristocurrency of a user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"ligtaspoints [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"omikuji":
+	{
+	"name":"omikuji",
+	"globalname":"omikuji",
+	"category":"Fun",
+	"description":"**lets you choose a random omikuji, which can then be used to tell your fortune in various aspects of life**",
+	"usage":"omikuji"
+	},
+"pekofy":
+	{
+	"name":"pekofy",
+	"globalname":"pekofy",
+	"category":"Fun",
+	"description":"**pekofies your message**",
+	"usage":"pekofy <message>"
+	},
+"penis":
+	{
+	"name":"penis",
+	"globalname":"penis",
+	"category":"Fun",
+	"description":"**measures the length of the user's penis**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"penis [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"renz":
+	{
+	"name":"renz",
+	"globalname":"renz",
+	"category":"Fun",
+	"description":"**commands for managing and using tags**",
+	"usage":"renz <subcommand>",
+	"options":
+		"
+		• **add <name> | <[message] | [image]> | [description]**
+		<:Reply:986293903131050045>magdagdag ng isang custom na utos
+		<:Reply:986293903131050045>example: `renz dagdag sheesh | *sheeshhh* | https://media.discordapp.net/attachments/852816062689181716/984170362617073745/sheesh.gif | SHEESH`
+		**-** *name* - ang pangalan ng custom na utos na idaragdag
+		<:Reply:986293903131050045>ito ang ginagamit upang magamit ang utos
+		**-** *message* - ang mensahe o mga salita na ipinakikita sa paggamit ng utos
+		**-** *image* - ang link ng imahe na ipinakikita sa paggamit ng utos
+		<:Reply:986293903131050045>maaari ring i-*attach* ang larawan na gagamitin para sa utos
+		**-** *description* - karagdagang impormasyon tungkol sa utos
+		<:Reply:986293903131050045>ipinakikita lamang ito sa tuwing tinitignan ang impormasyon ng utos sa pamamagitan ng utos na `impormasyon`
+
+		• **information <name>**
+		<:Reply:986293903131050045>nagpapakita ng impormasyon tungkol sa tinukoy na custom na utos
+		<:Reply:986293903131050045>example: `renz impormasyon sheesh`
+		**-** *name* - ang pangalan ng custom na utos na tatanggalin
+
+		• **list**
+		<:Reply:986293903131050045>displays the names of all the tags in the current server
+
+		• **remove <name>**
+		<:Reply:986293903131050045>magtanggal ng isang custom na utos
+		<:Reply:986293903131050045>ang mga maaari lamang magtanggal ng isang custom na utos ay ang nagdagdag nito, at ang mga miyembro ng server na may `Permission.MANAGE_SERVER`
+		**-** *pangalan* - ang pangalan ng custom na utos
+
+		• **tag**
+		<:Reply:986293903131050045>the name of the tag to be used
+		<:Reply:986293903131050045>example: `renz sheesh`
+		"
+	},
+"titobadang":
+	{
+	"name":"titobadang",
+	"globalname":"titobadang",
+	"category":"Fun",
+	"description":"***DALAWANG BESES NA YAN*\nshows a transcript of Tito Badang's infamous video**",
+	"usage":"titobadang"
+	},
+"trivia":
+	{
+	"name":"trivia",
+	"globalname":"trivia",
+	"category":"Fun",
+	"description":"**gives a trivia that you can answer**
+	<:Reply:986293903131050045>there are three trivia levels: `Easy`, `Average`, and `Difficult`",
+	"usage":"trivia"
+	},
+
+
+
+"mathematics":
+	{
+	"name":"mathematics",
+	"globalname":"mathematics",
+	"category":"Tools",
+	"description":"**evaluates a mathematical expression**",
+	"usage":"mathematics <expression>",
+	"options":
+		"
+		• **expression**
+		<:Reply:986293903131050045>ang ekspresyong pang-sipnayan na susuriin o lulutasin (example: `(pi)3^2`)
+		"
+	},
+"myanimelist":
+	{
+	"name":"myanimelist",
+	"globalname":"myanimelist",
+	"category":"Tools",
+	"description":"**searches MyAnimeList for an anime or manga**",
+	"usage":"myanimelist <anime|manga> [\"search\"] <name>",
+	"options":
+		"
+		• **anime|manga**
+		<:Reply:986293903131050045>tinutukoy kung `anime` o `manga` ang hahanapin sa MyAnimeList
+		• **search**
+		<:Reply:986293903131050045>maaring gamitin upang matukoy na nais mong ipakita ang mga nakalap na resulta sa pagsasaliksik, at pumili mula sa mga ito
+		<:Reply:986293903131050045>kapag hindi ito ginamit, awtomatikong ipakikita ang unang resulta ng pagsasaliksik
+		• **name**
+		<:Reply:986293903131050045>ang pangalan ng anime o manga na hahanapin sa myanimelist
+		"
+	},
+"nhentai":
+	{
+	"name":"nhentai",
+	"globalname":"nhentai",
+	"category":"Tools",
+	"description":"**searches NHentai for a gallery or comic**",
+	"usage":"nhentai <ID> | <RANDOM>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang ID ng isang galerya sa NHentai (example: `272727`)
+		• **\"RANDOM\"**
+		<:Reply:986293903131050045>nagsasaliksik para sa isang *random* na galerya sa NHentai
+		<:Reply:986293903131050045>ginagamit nito ang link na [`nhentai.net/random`](https://www.nhentai.net/random)
+		"
+	},
+"saucenao":
+	{
+	"name":"saucenao",
+	"globalname":"saucenao",
+	"category":"Tools",
+	"description":"**attempts to find the source of a given image**",
+	"usage":"saucenao <image>",
+	"options":
+		"
+		• **image**
+		<:Reply:986293903131050045>ang link ng imaheng hahanapin ang pinagmulan
+		<:Reply:986293903131050045>example: `https://cdn.discordapp.com/avatars/527828928803373065/4922081075ab7e2673f3b044b9e993c5.png?size=1024`
+		<:Reply:986293903131050045>maaari ring i-attach sa mensahe ang imahe
+		"
+	},
+"translate":
+	{
+	"name":"translate",
+	"globalname":"translate",
+	"category":"Tools",
+	"description":"**translates a given message from one language to another**",
+	"usage":"translate <from> <to> <message>",
+	"options":
+		"
+		• **from**
+		<:Reply:986293903131050045>the language of the original message
+		<:Reply:986293903131050045>example: `TL` para sa wikang Tagalog
+		<:Reply:986293903131050045>maaari mo ring ilagay ang `AUTO` upang hayaan ang bot na tukuyin ang wika ng iyong mensahe
+		• **to**
+		<:Reply:986293903131050045>the language to which the original message will be translated to
+		<:Reply:986293903131050045>example: `JA` para sa wikang Hapon
+		• **message**
+		<:Reply:986293903131050045>the message to be translated to another language
+		<:Reply:986293903131050045>hindi maaaring lumampas sa 500 karakter ang haba ng mensahe
+		"
+	},
+"wikipedia":
+	{
+	"name":"wikipedia",
+	"globalname":"wikipedia",
+	"category":"Tools",
+	"description":"searches Wikipedia for an article and displays the first result",
+	"usage":"wikipedia <name>",
+	"options":
+		"
+		• **name**
+		<:Reply:986293903131050045>the name of the article to be search for in Wikipedia
+		"
+	},
+
+
+
+"back":
+	{
+	"name":"back",
+	"globalname":"back",
+	"category":"Music",
+	"description":"**plays previous song or adds it to the back of queue (if the queue is not empty)**",
+	"usage":"back"
+	},
+"lyrics":
+	{
+	"name":"lyrics",
+	"globalname":"lyrics",
+	"category":"Music",
+	"description":"**shows the lyrics of a song**
+		<:Reply:986293903131050045>maaari ring hayaang walang nakalagay upang hanapin ang lirika ng kasalukuyang tugtog",
+	"usage":"lyrics [name]",
+	"options":
+		"
+		• **name**
+		<:Reply:986293903131050045>ang pangalan ng kanta na hahanapan ng lirika
+		"
+	},
+"nowplaying":
+	{
+	"name":"nowplaying",
+	"globalname":"nowplaying",
+	"category":"Music",
+	"description":"shows the music that is currently playing",
+	"usage":"nowplaying"
+	},
+"play":
+	{
+	"name":"play",
+	"globalname":"play",
+	"category":"Music",
+	"description":"**plays the provided music**",
+	"usage":"play [\"playlist\"] <name|URL>",
+	"options":
+		"
+		• **\"playlist\"**
+		<:Reply:986293903131050045>ilagay ang salitang \"playlist\" upang tukuyin kung playlist ang ipatutugtog
+		<:Reply:986293903131050045>maaaring sumangguni sa utos na `mgaplaylist` para sa listahan ng mga playlist
+		<:Reply:986293903131050045>hindi ito kailangang gamitin kung ang playlist na patutugtogin ay galing sa *YouTube* o iba pang panlabas na pinagmumulan
+		• **namen**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na patutugtogin
+		• **URL**
+		<:Reply:986293903131050045>ang URL o *link* patungo sa tugtog na patutugtogin
+		"
+	},
+"playlist":
+	{
+	"name":"playlist",
+	"globalname":"playlist",
+	"category":"Music",
+	"description":"**commands for the management and usage of playlists
+	!! These commands are currently under development. Please avoid using for now.**",
+	"usage":"playlist <subcommand>"
+	},
+"playlists":
+	{
+	"name":"playlists",
+	"globalname":"playlists",
+	"category":"Music",
+	"description":"**displays a list of available playlists**",
+	"usage":"playlists"
+	},
+"queue":
+	{
+	"name":"queue",
+	"globalname":"queue",
+	"category":"Music",
+	"description":"**displays the current queue**",
+	"usage":"queue [page]",
+	"options":
+		"
+		• **page**
+		<:Reply:986293903131050045>the queue page (a maximum of 10 tracks can be shown for each page)
+		"
+	},
+"remove":
+	{
+	"name":"remove",
+	"globalname":"remove",
+	"category":"Music",
+	"description":"**removes a track from the queue**",
+	"usage":"remove <ALL|position>",
+	"options":
+		"
+		• **ALL**
+		<:Reply:986293903131050045>removes all the tracks that you have enqueued
+		• **position**
+		<:Reply:986293903131050045>the position of the track to be removed from the queue
+		"
+	},
+"search":
+	{
+	"name":"search",
+	"globalname":"search",
+	"category":"Music",
+	"description":"**searches *YouTube* for a provided query**",
+	"usage":"search <query>",
+	"options":
+		"
+		• **query**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa *YouTube*
+		"
+	},
+"scsearch":
+	{
+	"name":"scsearch",
+	"globalname":"scsearch",
+	"category":"Music",
+	"description":"**searches *SoundCloud* for a provided query and plays the first result**",
+	"usage":"scsearch <query>",
+	"options":
+		"
+		• **query**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa SoundCloud*
+		"
+	},
+"seek":
+	{
+	"name":"seek",
+	"globalname":"seek",
+	"category":"Music",
+	"description":"**jumps to the specified part or section of the current track**",
+	"usage":"seek [+|-] <HH:MM:SS | MM:SS | SS>",
+	"options":
+		"
+		• **+|-**
+		<:Reply:986293903131050045>maaaring gamitin upang tukuyin kung magdaragdag o magbabawas relatibo sa kasalukuyang posisyon ng tugtog
+		• **HH:MM:SS**
+		<:Reply:986293903131050045>eksaktong posisyon kung patungo saan lalaktaw
+		<:Reply:986293903131050045>`HH` - Hours, `MM` - Minutes, `SS` - Seconds
+		"
+	},
+"shuffle":
+	{
+	"name":"shuffle",
+	"globalname":"shuffle",
+	"category":"Music",
+	"description":"**shuffles the order of the tracks that you have added to the queue**",
+	"usage":"shuffle"
+	},
+"skip":
+	{
+	"name":"skip",
+	"globalname":"skip",
+	"category":"Music",
+	"description":"**votes to skip the current song**",
+	"usage":"skip"
+	},
+
+
+
+"filter":
+	{
+	"name":"filter",
+	"globalname":"filter",
+	"category":"Music",
+	"description":"**commands for using audio filters",
+	"usage":"filter <subcommand>"
+	},
+
+
+
+"forceremove":
+	{
+	"name":"forceremove",
+	"globalname":"forceremove",
+	"category":"Music - DJ",
+	"description":"**removes all entries of the specified user from the queue**",
+	"usage":"forceremove <user>"
+	},
+
+"forceskip":
+	{
+	"name":"forceskip",
+	"globalname":"forceskip",
+	"category":"Music - DJ",
+	"description":"**skips the current track**",
+	"usage":"forceskip"
+	},
+
+"movetrack":
+	{
+	"name":"movetrack",
+	"globalname":"movetrack",
+	"category":"Music - DJ",
+	"description":"**moves a track in the queue to another position**",
+	"usage":"move <from> <to>"
+	},
+
+"pause":
+	{
+	"name":"pause",
+	"globalname":"pause",
+	"category":"Music - DJ",
+	"description":"**pauses the current track**",
+	"usage":"pause"
+	},
+
+"playnext":
+	{
+	"name":"playnext",
+	"globalname":"playnext",
+	"category":"Music - DJ",
+	"description":"**adds a song to the front of the queue**",
+	"usage":"playnext <name|URL>"
+	},
+
+"repeat":
+	{
+	"name":"repeat",
+	"globalname":"repeat",
+	"category":"Music - DJ",
+	"description":"re-adds music to the queue when finished",
+	"usage":"repeat [SINGLE|ALL]"
+	},
+
+"setfilter":
+	{
+	"name":"setfilter",
+	"globalname":"setfilter",
+	"category":"Music - DJ",
+	"description":"allows or denies the usage of audio filters in the current server",
+	"usage":"setfilter [YES|NO]"
+	},
+
+"skipto":
+	{
+	"name":"skipto",
+	"globalname":"skipto",
+	"category":"Music - DJ",
+	"description":"**skips to the track at the specified queue position**",
+	"usage":"skipto <position>"
+	},
+
+"stop":
+	{
+	"name":"stop",
+	"globalname":"stop",
+	"category":"Music - DJ",
+	"description":"**stops the current track, clears the queue, and leaves the voice channel**",
+	"usage":"stop"
+	},
+
+"volume":
+	{
+	"name":"volume",
+	"globalname":"volume",
+	"category":"Music - DJ",
+	"description":"**sets or shows player volume**",
+	"usage":"volume [volume]"
+	},
+
+
+
+"prefix":
+	{
+	"name":"prefix",
+	"globalname":"prefix",
+	"category":"Admin",
+	"description":"**sets a server-specific prefix for the usage of bot commands**",
+	"usage":"prefix <prefix>"
+	},
+
+"setcompactmode":
+	{
+	"name":"setcompactmode",
+	"globalname":"setcompactmode",
+	"category":"Admin",
+	"description":"**shortens (or returns to normal) the messages sent when queuing tracks**",
+	"usage":"setcompactmode"
+	},
+
+"setdj":
+	{
+	"name":"setdj",
+	"globalname":"setdj",
+	"category":"Admin",
+	"description":"**sets the DJ role, which will be given permission to use certain music commands**
+	<:Reply:986293903131050045>kapag hindi ito itinakda, lahat ng miyembro sa server ay ituturing ng bot bilang DJ at bibigyan ng pantay-pantay na kapangyarihan sa pagpapatugtog",
+	"usage":"setdj <role|NONE>"
+	},
+
+"setgiveaway":
+	{
+	"name":"setgiveaway",
+	"globalname":"setgiveaway",
+	"category":"Admin",
+	"description":"**sets a server-specific role that will be notified whenever there is a new giveaway**",
+	"usage":"setgiveaway <role|NONE>"
+	},
+
+"setlanguage":
+	{
+	"name":"setlanguage",
+	"globalname":"setlanguage",
+	"category":"Admin",
+	"description":"**sets the server-specific language to be used by the bot in its messages**",
+	"usage":"setlanguage <language|DEFAULT>"
+	},
+
+"setskip":
+	{
+	"name":"setskip",
+	"globalname":"setskip",
+	"category":"Admin",
+	"description":"**sets the server-specific percentage of listeners that must agree before skipping a track**",
+	"usage":"setskip <0-100>"
+	},
+
+"setrestrictedtc":
+	{
+	"name":"setrestrictedtc",
+	"globalname":"setrestrictedtc",
+	"category":"Admin",
+	"description":"**sets a server-specific text channel wherein the usage of certain fun commands are forbidden**",
+	"usage":"setrestrictedtc <channel|NONE>"
+	},
+
+"settc":
+	{
+	"name":"settc",
+	"globalname":"settc",
+	"category":"Admin",
+	"description":"**sets the text channel for music-related commands**",
+	"usage":"settc <channel|NONE>"
+	},
+
+"setvc":
+	{
+	"name":"setvc",
+	"globalname":"setvc",
+	"category":"Admin",
+	"description":"**sets the voice channel for playing music**",
+	"usage":"setvc <channel|NONE>"
+	}
+}

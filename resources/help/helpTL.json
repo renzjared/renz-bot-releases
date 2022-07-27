@@ -1,0 +1,848 @@
+{
+"about":
+	{
+	"name":"about",
+	"globalname":"about",
+	"category":"Pangkalahatan",
+	"description":"**nagbibigay ng impormasyon tungkol sa bot**",
+	"usage":"about"
+	},
+
+"giveaway":
+	{
+	"name":"pamimigay",
+	"globalname":"giveaway",
+	"category":"Pangkalahatan",
+	"description":"**mga utos tungkol sa paggamit at pamamahala ng mga pamimigay**
+	<:Reply:986293903131050045>!! mangyaring tandaan na ang (mga) utos na ito ay kasalukuyang nasa proseso ng pagsasaayos, at wala pa sa pangwakas nitong anyo
+	<:Reply:986293903131050045>!! maaaring magkaroon ng mga pagbabago sa mga utos na ito nang walang pahintulot o anumang abiso
+	<:Reply:986293903131050045>!! sumangguni sa mga opisyal na pahayag ng tagapagdebelop ukol dito para sa karagdagang impormasyon",
+	"usage":"pamimigay <subcommand>"
+	},
+
+"help":
+	{
+	"name":"tulong",
+	"globalname":"help",
+	"category":"Pangkalahatan",
+	"description":"**nagbibgay ng impormasyon tungkol sa mga utos ng bot**",
+	"usage":"tulong [kategorya|utos]",
+	"options":
+		"
+		• **kategorya**
+		<:Reply:986293903131050045>kategorya ng mga utos (halimbawa: `kaaliwan`)
+		• **utos**
+		<:Reply:986293903131050045>utos sa bot (halimbawa: `omikuji`)
+		"
+	},
+
+"message":
+	{
+	"name":"mensahe",
+	"globalname":"message",
+	"category":"Pangkalahatan",
+	"description":"**nagpapadala ng pribadong mensahe sa isang user**",
+	"usage":"mensahe <ID ng padadalhan> <mensahe>",
+	"options":
+		"
+		• **ID ng padadalhan**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user*
+		<:Reply:986293903131050045>halimbawa: `527828928803373065`
+		• **mensahe**
+		ang mensahe na ipadadala sa tinukoy na user
+		"
+	},
+
+"poll":
+	{
+	"name":"botohan",
+	"globalname":"poll",
+	"category":"Pangkalahatan",
+	"description":"**gumagawa ng botohan kung saan maaaring makaboto ang mga user sa pamamagitan ng pag-react sa mensahe**",
+	"usage":"poll <mensahe> [emotes{[emotes]}]"
+	},
+
+"profile":
+	{
+	"name":"profile",
+	"globalname":"profile",
+	"category":"Pangkalahatan",
+	"description":"**ipinakikita ang profile ng isang Discord user**",
+	"usage":"profile <ID|Pagbanggit|Tag>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"purge":
+	{
+	"name":"purga",
+	"globalname":"purge",
+	"category":"Pangkalahatan",
+	"description":"**nagbubura ng mga mensahe mula sa isang channel**",
+	"usage":"purga [numero]",
+	"options":
+		"
+		• **numero**
+		<:Reply:986293903131050045>ang bilang ng mensahe na buburahin mula sa channel
+		<:Reply:986293903131050045>ang bilang na ito ay kinakailangang hindi bababa sa `2` at hindi tataas sa `99`
+		"
+	},
+"ping":
+	{
+	"name":"ping",
+	"globalname":"ping",
+	"category":"Pangkalahatan",
+	"description":"**ipinakikita ang sukat ng pagkawalang-kilos o latency ng bot**",
+	"usage":"ping"
+	},
+"server":
+	{
+	"name":"server",
+	"globalname":"server",
+	"category":"Pangkalahatan",
+	"description":"**nagpapakita ng impormasyon tungkol sa isang Discord server**",
+	"usage":"server <ID>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *ID* ng isang *Discord server* (halimbawa: `926729522768912444`)
+		"
+	},
+"settings":
+	{
+	"name":"settings",
+	"globalname":"settings",
+	"category":"Pangkalahatan",
+	"description":"**ipinakikita ang mga setting ng bot para sa kasalukuyang server**",
+	"usage":"settings"
+	},
+
+
+"choose":
+	{
+	"name":"pili",
+	"globalname":"choose",
+	"category":"Kaaliwan",
+	"description":"**pumipili ng isa mula sa tinukoy na lupon ng mga bagay**",
+	"usage":"pili [mga pagpipilian]",
+	"options":
+		"
+		• **mga pagpipilian**
+		<:Reply:986293903131050045>ang mga opsyon na pagpipilian
+		<:Reply:986293903131050045>nakahiwalay ang bawat opsyon sa isa't isa sa pamamagitan ng mga kuwit (`,`)
+		"
+	},
+"hangman":
+	{
+	"name":"bitay",
+	"globalname":"hangman",
+	"category":"Kaaliwan",
+	"description":"**maglaro ng bitay**
+
+		__**Paano ito Laruin**__
+		May isang salita, parirala, o pangungusap na kailangang hulaan sa isang laro.
+		Kailangang mahulaan ang salitang ito para matapos ang laro.
+		Magkakaroon ng mga puntos ang mga manlalaro depende sa bilang ng letra na kaniyang naipalabas.
+
+		__**Mga Gamemode**__
+		:man: **Isahan**
+		<:Reply:986293903131050045>Isang manlalaro. Bot ang magbibigay ng salita at huhulaan ito ng manlalaro.
+		:crossed_swords: **Dalawahan** `Bersiyon 2.1+`
+		<:Reply:986293903131050045>2 Manlalaro. Isang manlalaro ang magbibigay ng salita. Huhulaan ng isa pa ang salita.",
+	"usage":"bitay [ simula | tigil ]",
+	"options":
+		"
+		• **simula**
+		<:Reply:986293903131050045>nagsisimula ng isang bagong laro ng bitay
+		• **tigil**
+		<:Reply:986293903131050045>ipinatitigil ang larong bitay na iyong pinasimulan
+		"
+	},
+"highlow":
+	{
+	"name":"taasbaba",
+	"globalname":"highlow",
+	"category":"Kaaliwan",
+	"description":"**magsimula ng laro ng taasbaba o highlow**",
+	"usage":"highlow"
+	},
+"howbanal":
+	{
+	"name":"gaanokabanal",
+	"globalname":"howbanal",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang kabanalan ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokabanal [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"howgay":
+	{
+	"name":"gaanokagay",
+	"globalname":"howgay",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang pagka-gay ang isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokagay [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"howhorny":
+	{
+	"name":"gaanokahorny",
+	"globalname":"howhorny",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang pagka-horny ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokahorny [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"hownpa":
+	{
+	"name":"gaanokanpa",
+	"globalname":"hownpa",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang pagka-NPA ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokanpa [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"howpretty":
+	{
+	"name":"gaanokaganda",
+	"globalname":"howpretty",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang kagandahan ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokaganda [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"howsus":
+	{
+	"name":"gaanokasus",
+	"globalname":"howsus",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang pagka-sus ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"gaanokasus [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"lenny":
+	{
+	"name":"lenny",
+	"globalname":"lenny",
+	"category":"Kaaliwan",
+	"description":"**( ͡° ͜ʖ ͡°)**",
+	"usage":"lenny"
+	},
+"ligtaspoints":
+	{
+	"name":"ligtaspoints",
+	"globalname":"ligtaspoints",
+	"category":"Kaaliwan",
+	"description":"**ipinakikita ang Ligtas Points at Kristocurrency ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"ligtaspoints [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"omikuji":
+	{
+	"name":"omikuji",
+	"globalname":"omikuji",
+	"category":"Kaaliwan",
+	"description":"**pinabubunot ka ng isang omikuji upang masukat ang iyong kapalaran sa iba't ibang aspeto ng buhay**",
+	"usage":"omikuji"
+	},
+"pekofy":
+	{
+	"name":"pekofy",
+	"globalname":"pekofy",
+	"category":"Kaaliwan",
+	"description":"**pine-pekofy ang iyong mensahe**",
+	"usage":"pekofy <mensahe>"
+	},
+"penis":
+	{
+	"name":"titi",
+	"globalname":"penis",
+	"category":"Kaaliwan",
+	"description":"**sinusukat ang haba ng titi ng isang user**
+		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+	"usage":"titi [ID|Pagbanggit|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (halimbawa: `527828928803373065`)
+		• **Pagbanggit**
+		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		• **Tag**
+		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>halimbawa: `renz#6270`
+		"
+	},
+"renz":
+	{
+	"name":"renz",
+	"globalname":"renz",
+	"category":"Kaaliwan",
+	"description":"**mga utos sa paggamit ng mga custom na utos**",
+	"usage":"renz <subcommand>",
+	"options":
+		"
+		• **dagdag <pangalan> | <[mensahe] | [imahe]> | [paglalarawan]**
+		<:Reply:986293903131050045>magdagdag ng isang custom na utos
+		<:Reply:986293903131050045>halimbawa: `renz dagdag sheesh | *sheeshhh* | https://media.discordapp.net/attachments/852816062689181716/984170362617073745/sheesh.gif | SHEESH`
+		**-** *pangalan* - ang pangalan ng custom na utos na idaragdag
+		<:Reply:986293903131050045>ito ang ginagamit upang magamit ang utos
+		**-** *mensahe* - ang mensahe o mga salita na ipinakikita sa paggamit ng utos
+		**-** *imahe* - ang link ng imahe na ipinakikita sa paggamit ng utos
+		<:Reply:986293903131050045>maaari ring i-*attach* ang larawan na gagamitin para sa utos
+		**-** *paglalarawan* - karagdagang impormasyon tungkol sa utos
+		<:Reply:986293903131050045>ipinakikita lamang ito sa tuwing tinitignan ang impormasyon ng utos sa pamamagitan ng utos na `impormasyon`
+
+		• **impormasyon <pangalan>**
+		<:Reply:986293903131050045>nagpapakita ng impormasyon tungkol sa tinukoy na custom na utos
+		<:Reply:986293903131050045>halimbawa: `renz impormasyon sheesh`
+		**-** *pangalan* - ang pangalan ng custom na utos na tatanggalin
+
+		• **lista**
+		<:Reply:986293903131050045>inililista ang lahat ng custom na utos sa kasalukuyang server
+
+		• **tanggal <pangalan>**
+		<:Reply:986293903131050045>magtanggal ng isang custom na utos
+		<:Reply:986293903131050045>ang mga maaari lamang magtanggal ng isang custom na utos ay ang nagdagdag nito, at ang mga miyembro ng server na may `Permission.MANAGE_SERVER`
+		**-** *pangalan* - ang pangalan ng custom na utos
+
+		• **utos**
+		<:Reply:986293903131050045>ang pangalan ng custom na utos na gagamitin
+		<:Reply:986293903131050045>halimbawa: `renz sheesh`
+		"
+	},
+"titobadang":
+	{
+	"name":"titobadang",
+	"globalname":"titobadang",
+	"category":"Kaaliwan",
+	"description":"***DALAWANG BESES NA YAN*\nipinakikita ang transcript ng bidyo ni tito badang**",
+	"usage":"titobadang"
+	},
+"trivia":
+	{
+	"name":"trivia",
+	"globalname":"trivia",
+	"category":"Kaaliwan",
+	"description":"**nagbibigay ng mga trivia na maaari mong sagutan**
+	<:Reply:986293903131050045>mayroong tatlong antas ang mga trivia: `Madali`, `Katamtaman`, at `Mahirap`",
+	"usage":"trivia"
+	},
+
+
+
+"mathematics":
+	{
+	"name":"sipnayan",
+	"globalname":"mathematics",
+	"category":"Kagamitan",
+	"description":"**nagsusuri ng isang ekspresyong pang-sipnayan**",
+	"usage":"sipnayan <ekspresyon>",
+	"options":
+		"
+		• **ekspresyon**
+		<:Reply:986293903131050045>ang ekspresyong pang-sipnayan na susuriin o lulutasin (halimbawa: `(pi)3^2`)
+		"
+	},
+"myanimelist":
+	{
+	"name":"myanimelist",
+	"globalname":"myanimelist",
+	"category":"Kagamitan",
+	"description":"**nagsasaliksik sa MyAnimeList para sa anime o manga**",
+	"usage":"myanimelist <anime|manga> [\"search\"] <pangalan>",
+	"options":
+		"
+		• **anime|manga**
+		<:Reply:986293903131050045>tinutukoy kung `anime` o `manga` ang hahanapin sa MyAnimeList
+		• **search**
+		<:Reply:986293903131050045>maaring gamitin upang matukoy na nais mong ipakita ang mga nakalap na resulta sa pagsasaliksik, at pumili mula sa mga ito
+		<:Reply:986293903131050045>kapag hindi ito ginamit, awtomatikong ipakikita ang unang resulta ng pagsasaliksik
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng anime o manga na hahanapin sa myanimelist
+		"
+	},
+"nhentai":
+	{
+	"name":"nhentai",
+	"globalname":"nhentai",
+	"category":"Kagamitan",
+	"description":"**nagsasaliksik sa NHentai para sa isang galerya o komik**",
+	"usage":"nhentai <ID> | <RANDOM>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>ang ID ng isang galerya sa NHentai (halimbawa: `272727`)
+		• **\"RANDOM\"**
+		<:Reply:986293903131050045>nagsasaliksik para sa isang *random* na galerya sa NHentai
+		<:Reply:986293903131050045>ginagamit nito ang link na [`nhentai.net/random`](https://www.nhentai.net/random)
+		"
+	},
+"saucenao":
+	{
+	"name":"saucenao",
+	"globalname":"saucenao",
+	"category":"Kagamitan",
+	"description":"**sinusubukang hanapin ang pinagmulan ng isang imahe**",
+	"usage":"saucenao <imahe>",
+	"options":
+		"
+		• **imahe**
+		<:Reply:986293903131050045>ang link ng imaheng hahanapin ang pinagmulan
+		<:Reply:986293903131050045>halimbawa: `https://cdn.discordapp.com/avatars/527828928803373065/4922081075ab7e2673f3b044b9e993c5.png?size=1024`
+		<:Reply:986293903131050045>maaari ring i-attach sa mensahe ang imahe
+		"
+	},
+"translate":
+	{
+	"name":"isalin",
+	"globalname":"translate",
+	"category":"Kagamitan",
+	"description":"**isinasalin ang ibinigay na mensahe mula sa isang wika patungo sa isa pa**",
+	"usage":"isalin <mula> <patungo> <mensahe>",
+	"options":
+		"
+		• **mula**
+		ang wika ng orihinal na mensahe
+		<:Reply:986293903131050045>halimbawa: `TL` para sa wikang Tagalog
+		<:Reply:986293903131050045>maaari mo ring ilagay ang `AUTO` upang hayaan ang bot na tukuyin ang wika ng iyong mensahe
+		• **patungo**
+		<:Reply:986293903131050045>ang wika kung saan isasalin ang mensahe
+		<:Reply:986293903131050045>halimbawa: `JA` para sa wikang Hapon
+		• **mensahe**
+		<:Reply:986293903131050045>ang mensaheng isasalin patungo sa ibang wika
+		<:Reply:986293903131050045>hindi maaaring lumampas sa 500 karakter ang haba ng mensahe
+		"
+	},
+"wikipedia":
+	{
+	"name":"wikipedia",
+	"globalname":"wikipedia",
+	"category":"Kagamitan",
+	"description":"nagsasaliksik sa Wikipedia para sa isang artikulo rito at ipinakikita ang unang resulta",
+	"usage":"wikipedia <pangalan>",
+	"options":
+		"
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng artikulo na hahanapin sa Wikipedia
+		"
+	},
+
+
+
+"back":
+	{
+	"name":"ibalik",
+	"globalname":"back",
+	"category":"Musika",
+	"description":"**ipinatutugtog muli ang huling tugtog o idinaragdag ito sa pinakadulo ng pila (kapag may mga tugtog na nakapila)**",
+	"usage":"ibalik"
+	},
+"lyrics":
+	{
+	"name":"lirika",
+	"globalname":"lyrics",
+	"category":"Musika",
+	"description":"**ipinakikita ang lirika ng isang kanta**
+		<:Reply:986293903131050045>maaari ring hayaang walang nakalagay upang hanapin ang lirika ng kasalukuyang tugtog",
+	"usage":"lirika [pangalan]",
+	"options":
+		"
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng kanta na hahanapan ng lirika
+		"
+	},
+"nowplaying":
+	{
+	"name":"kasalukuyan",
+	"globalname":"nowplaying",
+	"category":"Musika",
+	"description":"ipinakikita ang kasalukuyang tugtog",
+	"usage":"kasalukuyan"
+	},
+"play":
+	{
+	"name":"tugtog",
+	"globalname":"play",
+	"category":"Musika",
+	"description":"**ipinatutugtog ang ibinigay na tugtog**",
+	"usage":"tugtog [playlist] <pangalan|URL>",
+	"options":
+		"
+		• **playlist**
+		<:Reply:986293903131050045>ilagay ang salitang \"playlist\" upang tukuyin kung playlist ang ipatutugtog
+		<:Reply:986293903131050045>maaaring sumangguni sa utos na `mgaplaylist` para sa listahan ng mga playlist
+		<:Reply:986293903131050045>hindi ito kailangang gamitin kung ang playlist na patutugtogin ay galing sa *YouTube* o iba pang panlabas na pinagmumulan
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na patutugtogin
+		• **URL**
+		<:Reply:986293903131050045>ang URL o *link* patungo sa tugtog na patutugtogin
+		"
+	},
+"playlist":
+	{
+	"name":"playlist",
+	"globalname":"playlist",
+	"category":"Musika",
+	"description":"**mga utos sa paggamit ng mga playlist
+	!! kasalukuyang isinasaayos ang (mga) utos na ito, huwag gamitin hangga't maaari upang maiwasan ang mga hindi-inaasahang pangyayari**",
+	"usage":"playlist <subcommand>"
+	},
+"playlists":
+	{
+	"name":"mgaplaylist",
+	"globalname":"playlists",
+	"category":"Musika",
+	"description":"**ipinakikita ang mga playlist na maaaring patugtogin**",
+	"usage":"mgaplaylist"
+	},
+"queue":
+	{
+	"name":"pila",
+	"globalname":"queue",
+	"category":"Musika",
+	"description":"**ipinakikita ang kasalukuyang pili ng mga tugtog**",
+	"usage":"pila [pahina]",
+	"options":
+		"
+		• **pahina**
+		<:Reply:986293903131050045>ang pahina ng pila (10 tugtog ang ipinakikita sa bawat pahina)
+		"
+	},
+"remove":
+	{
+	"name":"tanggalin",
+	"globalname":"remove",
+	"category":"Musika",
+	"description":"**nagtatanggal ng (mga) tugtog mula sa pila**",
+	"usage":"tanggalin <ALL|posisyon>",
+	"options":
+		"
+		• **ALL**
+		<:Reply:986293903131050045>tinatanggal ang lahat ng tugtog na iyong ipinila
+		• **posisyon**
+		<:Reply:986293903131050045>ang posisyon ng kantang tatanggalin sa pila
+		"
+	},
+"search":
+	{
+	"name":"saliksik",
+	"globalname":"search",
+	"category":"Musika",
+	"description":"**nagsasaliksik sa *YouTube* para sa ibinigay na pangalan ng tugtog**",
+	"usage":"saliksik <pangalan>",
+	"options":
+		"
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa *YouTube*
+		"
+	},
+"scsearch":
+	{
+	"name":"scsaliksik",
+	"globalname":"scsearch",
+	"category":"Musika",
+	"description":"**nagsasaliksik sa *SoundCloud* para sa ibinigay na pangalan ng tugtog at ipinatutugtog ang unang resulta**",
+	"usage":"scsaliksik <pangalan>",
+	"options":
+		"
+		• **pangalan**
+		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa SoundCloud*
+		"
+	},
+"seek":
+	{
+	"name":"pumunta",
+	"globalname":"seek",
+	"category":"Musika",
+	"description":"**lumalaktaw patungo sa tinukoy na parte ng kasalukuyang tugtog**",
+	"usage":"pumunta [+|-] <OO:MM:SS | MM:SS | SS>",
+	"options":
+		"
+		• **+|-**
+		<:Reply:986293903131050045>maaaring gamitin upang tukuyin kung magdaragdag o magbabawas relatibo sa kasalukuyang posisyon ng tugtog
+		• **OO:MM:SS**
+		<:Reply:986293903131050045>eksaktong posisyon kung patungo saan lalaktaw
+		<:Reply:986293903131050045>`OO` - Oras, `MM` - Minuto, `SS` - Segundo
+		"
+	},
+"shuffle":
+	{
+	"name":"balasahin",
+	"globalname":"shuffle",
+	"category":"Musika",
+	"description":"**binabalasa ang pagkakasunod-sunod ng mga tugtog na iyong ipinila**",
+	"usage":"balashin"
+	},
+"skip":
+	{
+	"name":"laktawan",
+	"globalname":"skip",
+	"category":"Musika",
+	"description":"**bumoto upang laktawan ang kasalukuyang tugtog**",
+	"usage":"laktawan"
+	},
+
+
+
+"filter":
+	{
+	"name":"filter",
+	"globalname":"filter",
+	"category":"Musika",
+	"description":"**mga utos sa paggamit ng mga audio filter",
+	"usage":"filter <subcommand>"
+	},
+
+
+
+"forceremove":
+	{
+	"name":"pilittanggal",
+	"globalname":"forceremove",
+	"category":"Musika - DJ",
+	"description":"**sapilitang tinatanggal ang lahat ng tugtog na ipinila ng isang user**",
+	"usage":"pilittanggal <user>"
+	},
+
+"forceskip":
+	{
+	"name":"sunod",
+	"globalname":"forceskip",
+	"category":"Musika - DJ",
+	"description":"**nilalaktawan ang kasalukuyang tugtog**",
+	"usage":"sunod"
+	},
+
+"movetrack":
+	{
+	"name":"ilipat",
+	"globalname":"movetrack",
+	"category":"Musika - DJ",
+	"description":"**binabago ang posisyon ng isang tugtog sa pila**",
+	"usage":"ilipat <mula> <patungo>"
+	},
+
+"pause":
+	{
+	"name":"teka",
+	"globalname":"pause",
+	"category":"Musika - DJ",
+	"description":"**pansamantalang ipinahihinto ang pagpapatugtog**",
+	"usage":"teka"
+	},
+
+"playnext":
+	{
+	"name":"isunod",
+	"globalname":"playnext",
+	"category":"Musika - DJ",
+	"description":"**nagdaragdag ng tugtog sa pinaka-unahan ng pila**",
+	"usage":"isunod <pangalan|URL>"
+	},
+
+"repeat":
+	{
+	"name":"ulit",
+	"globalname":"repeat",
+	"category":"Musika - DJ",
+	"description":"inilalagay muli ang tugtog sa pila pagkatapos nitong tumugtog",
+	"usage":"ulit [ISAHAN|LAHATAN]"
+	},
+
+"setfilter":
+	{
+	"name":"setfilter",
+	"globalname":"setfilter",
+	"category":"Musika - DJ",
+	"description":"pinahihintulutan o hindi ang paggamit ng mga audio filter sa kasalukuyang server",
+	"usage":"setfilter [OO|HINDI]"
+	},
+
+"skipto":
+	{
+	"name":"talon",
+	"globalname":"skipto",
+	"category":"Musika - DJ",
+	"description":"**lumalaktaw patungo sa tugtog na nasa tinukoy na posisyon**",
+	"usage":"talon <posisyon>"
+	},
+
+"stop":
+	{
+	"name":"tigil",
+	"globalname":"stop",
+	"category":"Musika - DJ",
+	"description":"**ipinatitigil ang kasalukuyang tugtog (kung mayroon), tinatanggal ang lahat ng tugtog sa pila (kung mayroon), at pinaaalis ang bot mula sa channel**",
+	"usage":"tigil"
+	},
+
+"volume":
+	{
+	"name":"lakas",
+	"globalname":"volume",
+	"category":"Musika - DJ",
+	"description":"**ipinakikita o binabago ang lakas ng pagpapatugtog**",
+	"usage":"lakas [lakas]"
+	},
+
+
+
+"prefix":
+	{
+	"name":"panlapi",
+	"globalname":"prefix",
+	"category":"Admin",
+	"description":"**nagtatakda ng pang-server na panlapi para sa paggamit ng mga utos sa bot**",
+	"usage":"panlapi <panlapi>"
+	},
+
+"setcompactmode":
+	{
+	"name":"magpaikli",
+	"globalname":"setcompactmode",
+	"category":"Admin",
+	"description":"**pinaiikli (o ibinabalik sa normal) ang mga mensaheng ipinakikita sa tuwing nagpatutugtog**",
+	"usage":"magpaikli"
+	},
+
+"setdj":
+	{
+	"name":"gawingdj",
+	"globalname":"setdj",
+	"category":"Admin",
+	"description":"**itinatakda ang pang-server na role ng mga DJ, na siyang mabibigyan ng kapangyarihan na gumamit ng ilang utos para sa pagpapatugtog**
+	<:Reply:986293903131050045>kapag hindi ito itinakda, lahat ng miyembro sa server ay ituturing ng bot bilang DJ at bibigyan ng pantay-pantay na kapangyarihan sa pagpapatugtog",
+	"usage":"gawingdj <role|WALA>"
+	},
+
+"setgiveaway":
+	{
+	"name":"gawingpamimigay",
+	"globalname":"setgiveaway",
+	"category":"Admin",
+	"description":"**itinatakda ang pang-server na role na maaabisuhan sa tuwing may bagong pamimigay**",
+	"usage":"gawingpamimigay <role|WALA>"
+	},
+
+"setlanguage":
+	{
+	"name":"gawingwika",
+	"globalname":"setlanguage",
+	"category":"Admin",
+	"description":"**itnatakda ang pang-server na wika na gagamitin ng bot sa mga mensahe**",
+	"usage":"gawingwika <wika|DEFAULT>"
+	},
+
+"setskip":
+	{
+	"name":"setskip",
+	"globalname":"setskip",
+	"category":"Admin",
+	"description":"**itinatakda ang pang-server na proporsyon ng mga tagapakinig na kailangang sumang-ayon sa paglaktaw sa isang tugtog**",
+	"usage":"setskip <0-100>"
+	},
+
+"setrestrictedtc":
+	{
+	"name":"pagbawalan",
+	"globalname":"setrestrictedtc",
+	"category":"Admin",
+	"description":"**itinatakda ang pang-server na text channel kung saan hindi pinahihintulutan ang paggamit ng ilang utos-pangkaaliwan**",
+	"usage":"pagbawalan <channel|WALA>"
+	},
+
+"settc":
+	{
+	"name":"settc",
+	"globalname":"settc",
+	"category":"Admin",
+	"description":"**itinatakda ang text channel na para sa paggamit ng mga utos na may kinalaman sa pagpapatugtog**",
+	"usage":"settc <channel|WALA>"
+	},
+
+"setvc":
+	{
+	"name":"setvc",
+	"globalname":"setvc",
+	"category":"Admin",
+	"description":"**itinatakda ang voice channel na para sa pagpapatugtog**",
+	"usage":"setvc <channel|WALA>"
+	}
+}
