@@ -8,15 +8,50 @@
 	"usage":"about"
 	},
 
+"avatar":
+	{
+	"name":"avatar",
+	"globalname":"avatar",
+	"category":"General",
+	"description":"**displays the avatar of a Discord user**",
+	"usage":"avatar <ID|Mention|Tag>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+
+"badges":
+	{
+	"name":"badges",
+	"globalname":"badges",
+	"category":"General",
+	"description":"**displays the badges of a Discord user**",
+	"usage":"badges <ID|Mention|Tag>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+
 "giveaway":
 	{
 	"name":"giveaway",
 	"globalname":"giveaway",
 	"category":"General",
-	"description":"**commands for the usage and management of giveaways**
-	<:Reply:986293903131050045>!! mangyaring tandaan na ang (mga) utos na ito ay kasalukuyang nasa proseso ng pagsasaayos, at wala pa sa pangwakas nitong anyo
-	<:Reply:986293903131050045>!! maaaring magkaroon ng mga pagbabago sa mga utos na ito nang walang pahintulot o anumang abiso
-	<:Reply:986293903131050045>!! sumangguni sa mga opisyal na pahayag ng tagapagdebelop ukol dito para sa karagdagang impormasyon",
+	"description":"**commands for the usage and management of giveaways**",
 	"usage":"giveaway <subcommand>"
 	},
 
@@ -46,10 +81,10 @@
 	"options":
 		"
 		• **ID of recepient**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user*
+		<:Reply:986293903131050045>the user ID of a Discord user
 		<:Reply:986293903131050045>example: `527828928803373065`
-		• **mensahe**
-		ang mensahe na ipadadala sa tinukoy na user
+		• **message**
+		the message to be sent to the specified user
 		"
 	},
 
@@ -72,14 +107,15 @@
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
 		• **Mention**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
+
 "purge":
 	{
 	"name":"purge",
@@ -90,8 +126,8 @@
 	"options":
 		"
 		• **number**
-		<:Reply:986293903131050045>ang bilang ng mensahe na buburahin mula sa channel
-		<:Reply:986293903131050045>ang bilang na ito ay kinakailangang hindi bababa sa `2` at hindi tataas sa `99`
+		<:Reply:986293903131050045>the number of messages to be removed from the channel
+		<:Reply:986293903131050045>this number shall not be lower than `2` and not higher than `99`
 		"
 	},
 "ping":
@@ -135,8 +171,8 @@
 	"options":
 		"
 		• **choices**
-		<:Reply:986293903131050045>ang mga opsyon na pagpipilian
-		<:Reply:986293903131050045>nakahiwalay ang bawat opsyon sa isa't isa sa pamamagitan ng mga kuwit (`,`)
+		<:Reply:986293903131050045>the options to choose from
+		<:Reply:986293903131050045>the options must be separated from each other by commas (`,`)
 		"
 	},
 "hangman":
@@ -179,35 +215,16 @@
 	"globalname":"howbanal",
 	"category":"Fun",
 	"description":"**measures how holy a user is**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"howbanal [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
 		• **Mention**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
-		<:Reply:986293903131050045>example: `renz#6270`
-		"
-	},
-"howgay":
-	{
-	"name":"howgay",
-	"globalname":"howgay",
-	"category":"Fun",
-	"description":"**measures how gay a user is**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
-	"usage":"howgay [ID|Mention|Tag]",
-	"options":
-		"
-		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
-		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -215,18 +232,19 @@
 	{
 	"name":"howhorny",
 	"globalname":"howhorny",
+	"nsfw":true,
 	"category":"Fun",
 	"description":"**measures how horny a user is**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"howhorny [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -234,18 +252,19 @@
 	{
 	"name":"hownpa",
 	"globalname":"hownpa",
+	"nsfw":true,
 	"category":"Fun",
 	"description":"**measures the probability that a user is a member of the NPA**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"hownpa [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -255,16 +274,16 @@
 	"globalname":"howpretty",
 	"category":"Fun",
 	"description":"**measures how pretty a user is**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"howpretty [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -274,16 +293,35 @@
 	"globalname":"howsus",
 	"category":"Fun",
 	"description":"**measures how sus a user is**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"howsus [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
+		"
+	},
+"howugly":
+	{
+	"name":"howugly",
+	"globalname":"howugly",
+	"category":"Fun",
+	"description":"**measures how ugly a user is**
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
+	"usage":"howugly [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -301,16 +339,16 @@
 	"globalname":"ligtaspoints",
 	"category":"Fun",
 	"description":"**displays the Ligtas Points and Kristocurrency of a user**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"ligtaspoints [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -334,18 +372,19 @@
 	{
 	"name":"penis",
 	"globalname":"penis",
+	"nsfw":true,
 	"category":"Fun",
 	"description":"**measures the length of the user's penis**
-		<:Reply:986293903131050045>maaari mo ring hayaang walang nakalagay sa utos na ito upang masukat ang iyong sarili",
+		<:Reply:986293903131050045>you can also leave this blank to measure yourself",
 	"usage":"penis [ID|Mention|Tag]",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang *user ID* ng isang *Discord user* (example: `527828928803373065`)
-		• **Pagbanggit**
-		<:Reply:986293903131050045>isang pagbanggit o *mention* sa isang Discord user
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
 		• **Tag**
-		<:Reply:986293903131050045>ang tag ng isang Discord user na binubuo ng kaniyang pangalan at *discriminator*
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
 		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
@@ -358,33 +397,50 @@
 	"usage":"renz <subcommand>",
 	"options":
 		"
-		• **add <name> | <[message] | [image]> | [description]**
-		<:Reply:986293903131050045>magdagdag ng isang custom na utos
-		<:Reply:986293903131050045>example: `renz dagdag sheesh | *sheeshhh* | https://media.discordapp.net/attachments/852816062689181716/984170362617073745/sheesh.gif | SHEESH`
-		**-** *name* - ang pangalan ng custom na utos na idaragdag
-		<:Reply:986293903131050045>ito ang ginagamit upang magamit ang utos
-		**-** *message* - ang mensahe o mga salita na ipinakikita sa paggamit ng utos
-		**-** *image* - ang link ng imahe na ipinakikita sa paggamit ng utos
-		<:Reply:986293903131050045>maaari ring i-*attach* ang larawan na gagamitin para sa utos
-		**-** *description* - karagdagang impormasyon tungkol sa utos
-		<:Reply:986293903131050045>ipinakikita lamang ito sa tuwing tinitignan ang impormasyon ng utos sa pamamagitan ng utos na `impormasyon`
+		• **add <name> | <[message] | [image]>**
+		<:Reply:986293903131050045>adds a tag in the current server
+		<:Reply:986293903131050045>example: `renz add examplename | *my custom message* | https://media.discordapp.net/attachments/852816062689181716/984170362617073745/sheesh.gif`
+		**-** *name* - the name of the tag to be added
+		<:Reply:986293903131050045>this is used when calling/using the tag
+		**-** *message* - the message that will be shown whenever the tag is used
+		**-** *image* - a link to an image that will be shown whenever the tag is used
+		<:Reply:986293903131050045>you can also attach the image to be used to your message
 
 		• **information <name>**
-		<:Reply:986293903131050045>nagpapakita ng impormasyon tungkol sa tinukoy na custom na utos
-		<:Reply:986293903131050045>example: `renz impormasyon sheesh`
-		**-** *name* - ang pangalan ng custom na utos na tatanggalin
+		<:Reply:986293903131050045>displays information about a tag
+		<:Reply:986293903131050045>example: `renz information mytag`
+		**-** *name* - the name of the tag to be queried
 
 		• **list**
 		<:Reply:986293903131050045>displays the names of all the tags in the current server
 
 		• **remove <name>**
-		<:Reply:986293903131050045>magtanggal ng isang custom na utos
-		<:Reply:986293903131050045>ang mga maaari lamang magtanggal ng isang custom na utos ay ang nagdagdag nito, at ang mga miyembro ng server na may `Permission.MANAGE_SERVER`
-		**-** *pangalan* - ang pangalan ng custom na utos
+		<:Reply:986293903131050045>removes a tag from the current server
+		<:Reply:986293903131050045>only the user who added the tag, as well as server members with `Permission.MANAGE_SERVER` can remove a tag
+		**-** *pangalan* - the name of the tag to be removed
 
 		• **tag**
 		<:Reply:986293903131050045>the name of the tag to be used
-		<:Reply:986293903131050045>example: `renz sheesh`
+		<:Reply:986293903131050045>example: `renz mytag`
+		"
+	},
+"rockpaperscissors":
+	{
+	"name":"rockpaperscissors",
+	"globalname":"rockpaperscissors",
+	"category":"Fun",
+	"description":"**play a game of rock-paper-scissors**
+	<:Reply:986293903131050045>if no user was mentioned, the bot will serve as the opponent",
+	"usage":"rockpaperscissors [ID|Mention|Tag]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of a Discord user (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>a Discord user in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user, which is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
 		"
 	},
 "titobadang":
@@ -417,7 +473,7 @@
 	"options":
 		"
 		• **expression**
-		<:Reply:986293903131050045>ang ekspresyong pang-sipnayan na susuriin o lulutasin (example: `(pi)3^2`)
+		<:Reply:986293903131050045>the mathematical expression to be evaluated (example: `(pi)3^2`)
 		"
 	},
 "myanimelist":
@@ -430,28 +486,53 @@
 	"options":
 		"
 		• **anime|manga**
-		<:Reply:986293903131050045>tinutukoy kung `anime` o `manga` ang hahanapin sa MyAnimeList
+		<:Reply:986293903131050045>specifies the type of query to be performed (whether `anime` or `manga`)
 		• **search**
-		<:Reply:986293903131050045>maaring gamitin upang matukoy na nais mong ipakita ang mga nakalap na resulta sa pagsasaliksik, at pumili mula sa mga ito
-		<:Reply:986293903131050045>kapag hindi ito ginamit, awtomatikong ipakikita ang unang resulta ng pagsasaliksik
+		<:Reply:986293903131050045>can be used to display multiple results from a search query
+		<:Reply:986293903131050045>this also lets you choose one entry to be displayed
+		<:Reply:986293903131050045>if this is not used, the command will automatically return the first result of the search query
 		• **name**
-		<:Reply:986293903131050045>ang pangalan ng anime o manga na hahanapin sa myanimelist
+		<:Reply:986293903131050045>the name of the anime or manga to be searched
 		"
 	},
 "nhentai":
 	{
 	"name":"nhentai",
 	"globalname":"nhentai",
+	"nsfw":true,
 	"category":"Tools",
 	"description":"**searches NHentai for a gallery or comic**",
 	"usage":"nhentai <ID> | <RANDOM>",
 	"options":
 		"
 		• **ID**
-		<:Reply:986293903131050045>ang ID ng isang galerya sa NHentai (example: `272727`)
+		<:Reply:986293903131050045>the ID of an NHentai gallery (example: `272727`)
 		• **\"RANDOM\"**
-		<:Reply:986293903131050045>nagsasaliksik para sa isang *random* na galerya sa NHentai
-		<:Reply:986293903131050045>ginagamit nito ang link na [`nhentai.net/random`](https://www.nhentai.net/random)
+		<:Reply:986293903131050045>searches for a *random* NHentai gallery
+		<:Reply:986293903131050045>this command uses the link [`nhentai.net/random`](https://www.nhentai.net/random)
+		"
+	},
+"qr":
+	{
+	"name":"qr",
+	"globalname":"qr",
+	"category":"Tools",
+	"description":"**commands for creating and scanning QR codes**",
+	"usage":"qr <subcommand>",
+	"options":
+		"
+		• **qr generate <content>**
+		<:Reply:986293903131050045>generates a QR code
+		<:Reply:986293903131050045>example: `qr likha kamusta!`
+		**-** *content* - the content of the QR code
+		<:Reply:986293903131050045>this is what is being displayed whenever the QR code is scanned
+
+		• **qr scan <image>**
+		<:Reply:986293903131050045>scans the provided QR code
+		<:Reply:986293903131050045>example: `qr scan https://media.discordapp.net/attachments/930613462994911232/1005877717759172648/unknown.png?width=468&height=468`
+		**-** *imahe* - a link to an image containing the QR code to be scanned
+		<:Reply:986293903131050045>you may also include the image as an attachment to the message
+		<:Reply:986293903131050045>you may also reply to a message with an image to scan the image on the referenced message
 		"
 	},
 "saucenao":
@@ -464,9 +545,9 @@
 	"options":
 		"
 		• **image**
-		<:Reply:986293903131050045>ang link ng imaheng hahanapin ang pinagmulan
+		<:Reply:986293903131050045>the link of the image to be queried
 		<:Reply:986293903131050045>example: `https://cdn.discordapp.com/avatars/527828928803373065/4922081075ab7e2673f3b044b9e993c5.png?size=1024`
-		<:Reply:986293903131050045>maaari ring i-attach sa mensahe ang imahe
+		<:Reply:986293903131050045>the image may also be attached to your message
 		"
 	},
 "translate":
@@ -480,14 +561,14 @@
 		"
 		• **from**
 		<:Reply:986293903131050045>the language of the original message
-		<:Reply:986293903131050045>example: `TL` para sa wikang Tagalog
-		<:Reply:986293903131050045>maaari mo ring ilagay ang `AUTO` upang hayaan ang bot na tukuyin ang wika ng iyong mensahe
+		<:Reply:986293903131050045>example: `TL` for Tagalog
+		<:Reply:986293903131050045>you can also put `AUTO` and let the bot detect the language of your message
 		• **to**
 		<:Reply:986293903131050045>the language to which the original message will be translated to
-		<:Reply:986293903131050045>example: `JA` para sa wikang Hapon
+		<:Reply:986293903131050045>example: `JA` for the Japanese language
 		• **message**
 		<:Reply:986293903131050045>the message to be translated to another language
-		<:Reply:986293903131050045>hindi maaaring lumampas sa 500 karakter ang haba ng mensahe
+		<:Reply:986293903131050045>the message shall not be longer than 500 characters
 		"
 	},
 "wikipedia":
@@ -500,7 +581,7 @@
 	"options":
 		"
 		• **name**
-		<:Reply:986293903131050045>the name of the article to be search for in Wikipedia
+		<:Reply:986293903131050045>the name of the article to be searched for in Wikipedia
 		"
 	},
 
@@ -520,12 +601,12 @@
 	"globalname":"lyrics",
 	"category":"Music",
 	"description":"**shows the lyrics of a song**
-		<:Reply:986293903131050045>maaari ring hayaang walang nakalagay upang hanapin ang lirika ng kasalukuyang tugtog",
+		<:Reply:986293903131050045>you may also leave this blank to return the lyrics of the currently-playing song",
 	"usage":"lyrics [name]",
 	"options":
 		"
 		• **name**
-		<:Reply:986293903131050045>ang pangalan ng kanta na hahanapan ng lirika
+		<:Reply:986293903131050045>the name of the song whose lyrics is to be searched for
 		"
 	},
 "nowplaying":
@@ -546,13 +627,13 @@
 	"options":
 		"
 		• **\"playlist\"**
-		<:Reply:986293903131050045>ilagay ang salitang \"playlist\" upang tukuyin kung playlist ang ipatutugtog
-		<:Reply:986293903131050045>maaaring sumangguni sa utos na `mgaplaylist` para sa listahan ng mga playlist
-		<:Reply:986293903131050045>hindi ito kailangang gamitin kung ang playlist na patutugtogin ay galing sa *YouTube* o iba pang panlabas na pinagmumulan
-		• **namen**
-		<:Reply:986293903131050045>ang pangalan ng tugtog na patutugtogin
+		<:Reply:986293903131050045>you can include the keyword \"playlist\" to specify that you want to play a Renz-Bot playlist
+		<:Reply:986293903131050045>refer to the command `playlists` for the list of available Renz-Bot playlists
+		<:Reply:986293903131050045>this shall not be used if the playlist to be loaded comes from *YouTube* or other external sources
+		• **name**
+		<:Reply:986293903131050045>the name of the track or playlist to be played
 		• **URL**
-		<:Reply:986293903131050045>ang URL o *link* patungo sa tugtog na patutugtogin
+		<:Reply:986293903131050045>the URL or link to a track or playlist to be played
 		"
 	},
 "playlist":
@@ -560,9 +641,43 @@
 	"name":"playlist",
 	"globalname":"playlist",
 	"category":"Music",
-	"description":"**commands for the management and usage of playlists
-	!! These commands are currently under development. Please avoid using for now.**",
-	"usage":"playlist <subcommand>"
+	"description":"**commands for the management and usage of playlists**",
+	"usage":"playlist <subcommand>",
+	"options":
+		"
+		• **add <name> | [scope] | <track> | <track> | ...**
+		<:Reply:986293903131050045>adds track(s) to the specified playlist
+		<:Reply:986293903131050045>example: `playlist add myplaylist | https://www.youtube.com/watch?v=WWB01IuMvzA`
+		<:Reply:986293903131050045>this adds a track with the URL `https://www.youtube.com/watch?v=WWB01IuMvzA` to the playlist `myplaylist`
+		**-** *name* - the name of the playlist to be appended
+		**-** *scope* - the scope or privacy level of the playlist to be appended
+		<:Reply:986293903131050045>this may be `server` or `private`
+		<:Reply:986293903131050045>the bot will try to find a playlist with either scope if the scope was not specified
+		**-** *track* - the track(s) to be added to the specified playlist
+		<:Reply:986293903131050045>this can be in the form of a URL or link to a track
+		<:Reply:986293903131050045>the keyword `ytsearch: <name>` may also be used to search for a track with the specified name (example: `ytsearch: God Knows`)
+
+		• **create <name> | [scope]**
+		<:Reply:986293903131050045>creates a new playlist
+		<:Reply:986293903131050045>example: `playlist create myplaylist | server`
+		<:Reply:986293903131050045>this creates a server playlist with the name `myplaylist`
+		**-** *name* - the name of the playlist to be created
+		<:Reply:986293903131050045>this is used in playing the playlist
+		**-** *scope* - the scope or privacy level of the playlist to be created
+		<:Reply:986293903131050045>this may be `server` o `private`
+		<:Reply:986293903131050045>defaults to `private` if not specified
+
+		• **list**
+		<:Reply:986293903131050045>lists all the available playlists
+
+		• **remove <name> | [scope]**
+		<:Reply:986293903131050045>removes the specified playlist
+		<:Reply:986293903131050045>by default, you may only remove your own playlists (private) and server playlists that you have created
+		<:Reply:986293903131050045>server admins or members with `Permission.MANAGE_SERVER` may remove any server playlist at will
+		**-** *name* - the name of the playlist to be removed
+		**-** *scope* - the scope or privacy level of the playlist to be removed
+		<:Reply:986293903131050045>this may be `server` or `private`
+		"
 	},
 "playlists":
 	{
@@ -610,7 +725,7 @@
 	"options":
 		"
 		• **query**
-		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa *YouTube*
+		<:Reply:986293903131050045>the name of the track to be searched on *YouTube*
 		"
 	},
 "scsearch":
@@ -623,7 +738,7 @@
 	"options":
 		"
 		• **query**
-		<:Reply:986293903131050045>ang pangalan ng tugtog na hahanapin sa SoundCloud*
+		<:Reply:986293903131050045>the name of the track to be searched on *SoundCloud*
 		"
 	},
 "seek":
@@ -636,9 +751,9 @@
 	"options":
 		"
 		• **+|-**
-		<:Reply:986293903131050045>maaaring gamitin upang tukuyin kung magdaragdag o magbabawas relatibo sa kasalukuyang posisyon ng tugtog
+		<:Reply:986293903131050045>used to specify to seek forward or backward, relative to the current position/timestamp of the currently-playing track
 		• **HH:MM:SS**
-		<:Reply:986293903131050045>eksaktong posisyon kung patungo saan lalaktaw
+		<:Reply:986293903131050045>the exact timestamp to seek to
 		<:Reply:986293903131050045>`HH` - Hours, `MM` - Minutes, `SS` - Seconds
 		"
 	},
@@ -647,8 +762,15 @@
 	"name":"shuffle",
 	"globalname":"shuffle",
 	"category":"Music",
-	"description":"**shuffles the order of the tracks that you have added to the queue**",
-	"usage":"shuffle"
+	"description":"**shuffles the order of the tracks in the queue**",
+	"usage":"shuffle [ALL]",
+	"options":
+		"
+		• **ALL**
+		<:Reply:986293903131050045>shuffles the order of all the tracks in the queue
+		<:Reply:986293903131050045>only server DJs can use this command
+		<:Reply:986293903131050045>if this is not used, only the tracks that you have added to the queue will be shuffled
+		"
 	},
 "skip":
 	{
@@ -764,6 +886,28 @@
 
 
 
+"kick":
+	{
+	"name":"kick",
+	"globalname":"kick",
+	"category":"Admin",
+	"description":"**kicks a member from the current server**",
+	"usage":"kick <ID|Mention|Tag> [reason]",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of the Discord user to be kicked from the current server (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>the Discord user to be kicked from the current server, in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user to be kicked from the current server
+		<:Reply:986293903131050045>this is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
+		• **reason**
+		<:Reply:986293903131050045>the reason for kicking the specified user from the current server
+		"
+	},
+
 "prefix":
 	{
 	"name":"prefix",
@@ -788,7 +932,7 @@
 	"globalname":"setdj",
 	"category":"Admin",
 	"description":"**sets the DJ role, which will be given permission to use certain music commands**
-	<:Reply:986293903131050045>kapag hindi ito itinakda, lahat ng miyembro sa server ay ituturing ng bot bilang DJ at bibigyan ng pantay-pantay na kapangyarihan sa pagpapatugtog",
+	<:Reply:986293903131050045>if this is not set, all server members are considered as DJs, and will be given equal access to all music commands",
 	"usage":"setdj <role|NONE>"
 	},
 
@@ -844,5 +988,29 @@
 	"category":"Admin",
 	"description":"**sets the voice channel for playing music**",
 	"usage":"setvc <channel|NONE>"
+	},
+
+"warn":
+	{
+	"name":"warning",
+	"globalname":"warn",
+	"category":"Admin",
+	"description":"**warns the specified server member**
+	<:Reply:986293903131050045>you can use the command `warning list [ID|Mention|Tag]` to display the warnings of a server member
+	<:Reply:986293903131050045>you may also leave the command blank to view your own warnings",
+	"usage":"warning <ID|Mention|Tag> <message>",
+	"options":
+		"
+		• **ID**
+		<:Reply:986293903131050045>the user ID of the Discord user to be warned (example: `527828928803373065`)
+		• **Mention**
+		<:Reply:986293903131050045>the Discord user to be warned in the form of a mention (example: <@527828928803373065>)
+		• **Tag**
+		<:Reply:986293903131050045>the tag of a Discord user to be warned
+		<:Reply:986293903131050045>this is composed of their name and discriminator
+		<:Reply:986293903131050045>example: `renz#6270`
+		• **message**
+		<:Reply:986293903131050045>a warning or message for the specified server member
+		"
 	}
 }

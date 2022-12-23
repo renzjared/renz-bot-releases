@@ -1,0 +1,251 @@
+/////////////////////////////////////////////////////////
+// Config for the JMusicBot                            //
+/////////////////////////////////////////////////////////
+// Any line starting with // is ignored                //
+// You MUST set the token and owner                    //
+// All other items have defaults if you don't set them //
+// Open in Notepad++ for best results                  //
+/////////////////////////////////////////////////////////
+
+
+// This sets the token for the bot to log in with
+// This MUST be a bot token (user tokens will not work)
+// If you don't know how to get a bot token, please see the guide here:
+// https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
+
+token = 
+
+
+// This sets the owner of the bot
+// This needs to be the owner's ID (a 17-18 digit number)
+// https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
+
+owner = 
+
+// These set the tokens needed for proper Youtube age restrictions handeling.
+// Age restricted videos from Youtube will not play.
+// Consult the wiki on how to get these tokens.
+
+PAPISID = "DPAa66pN6rqyX0f-/Abjlc4YHGzwW2C7JQ" //PAPI SID
+PSID = "Ighgx7UtNtBwToE-vG2DVIehFh12KeXc-voG9vmvr5DKM5NjOM367LAUkt3ttJ6Ag_b1sg."    //P SID
+
+// This sets the prefix for the bot
+// The prefix is used to control the commands
+// If you use !!, the play command will be !!play
+// If you do not set this, the prefix will be a mention of the bot (@Botname play)
+
+prefix = "-"
+
+
+// If you set this, it modifies the default game of the bot
+// Set this to NONE to have no game
+// Set this to DEFAULT to use the default game
+// You can make the game "Playing X", "Listening to X", or "Watching X"
+// where X is the title. If you don't include an action, it will use the
+// default of "Playing"
+
+game = "Listening to -help"
+
+
+// If you set this, it will modify the default status of bot
+// Valid values: ONLINE IDLE DND INVISIBLE
+
+status = ONLINE
+
+
+// If you set this to true, the bot will list the title of the song it is currently playing in its
+// "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
+// if the bot is playing on multiple guilds, this will not work.
+
+songinstatus=true
+
+
+// If you set this, the bot will also use this prefix in addition to
+// the one provided above
+
+altprefix = "@mention"
+
+
+// This sets the footer message that is displayed in queue messages.
+
+footerMessage = ""
+footerMessageTL = ""
+footerMessageTL2 = ""
+footerMessageJP = ""
+
+
+// If you set these, it will change the various emojis
+
+success = "🎶"
+warning = "💡"
+error = "🚫"
+loading = "⌚"
+searching = "🔎"
+
+queueEmote = "<Queue:976047709263917056>"
+skipEmote = "🎶"
+warningEmote = "💡"
+errorEmote = "🚫"
+permissionErrorEmote = "🚫"
+
+errorImage = "https://media.discordapp.net/attachments/976065002551255130/985892660789280798/Picture1.png?width=468&height=468"
+permissionErrorImage = "https://media.discordapp.net/attachments/976065002551255130/985971271437271060/Picture1.png?width=468&height=468"
+queueImage = "https://media.discordapp.net/attachments/976065002551255130/976065055579852810/Queue.png?width=468&height=468"
+
+
+// If you set this, you change the word used to view the help.
+// For example, if you set the prefix to !! and the help to cmds, you would type
+// !!cmds to see the help text
+
+help = legacyhelp
+
+
+// If you set this, the "nowplaying" command will show youtube thumbnails
+// Note: If you set this to true, the nowplaying boxes will NOT refresh
+// This is because refreshing the boxes causes the image to be reloaded
+// every time it refreshes.
+
+npimages = false
+
+
+// If you set this, the bot will not leave a voice channel after it finishes a queue.
+// Keep in mind that being connected to a voice channel uses additional bandwith,
+// so this option is not recommended if bandwidth is a concern.
+
+stayinchannel = true
+
+
+// This sets the maximum amount of seconds any track loaded can be. If not set or set
+// to any number less than or equal to zero, there is no maximum time length. This time
+// restriction applies to songs loaded from any source.
+
+maxtime = 0
+
+
+// This sets the amount of seconds the bot will stay alone on a voice channel until it
+// automatically leaves the voice channel and clears the queue. If not set or set
+// to any number less than or equal to zero, the bot won't leave when alone.
+
+alonetimeuntilstop = 120
+
+
+// This sets the max number of results to be shown when searching for a song
+
+maxsearchresults = 5
+
+
+// This sets an alternative folder to be used as the Playlists folder
+// This can be a relative or absolute path
+
+playlistsfolder = "Playlists"
+
+// By default, the bot will DM the owner if the bot is running and a new version of the bot
+// becomes available. Set this to false to disable this feature.
+
+updatealerts=true
+
+
+// Changing this changes the lyrics provider
+// Currently available providers: "A-Z Lyrics", "Genius", "MusicMatch", "LyricsFreak"
+
+lyrics.default = "A-Z Lyrics"
+
+
+// These settings allow you to configure custom aliases for all commands.
+// Multiple aliases may be given, separated by commas.
+//
+// Example 1: Giving command "play" the alias "p":
+// play = [ p ]
+//
+// Example 2: Giving command "search" the aliases "yts" and "find":
+// search = [ yts, find ]
+
+aliases {
+  // General commands
+  placeholder = [ do not edit ]
+  avatar = [ av ]
+  badge = [ bdg, tsapa ]
+  badges = [ badgelist, bl, mgatsapa ]
+  helpcmd = [ cmd, command, h, tulong ]
+  giveaway = [ bigayan, ga, pagbibigay, pamimigay ]
+  message = [ msg, mensahe ]
+  poll = [ boto, botohan, vote ]
+  profile = [ pf, serverprofile, spro, userinfo ]
+  purge = [ clear, deletemsg, msgdelete, tanggalmensahe, purga ]
+  settings = [ status ]
+
+  // Fun commands
+  8ball = [ 8b, m8b, magic8ball ]
+  choose = [ choice, decide, pili, pumili ]
+  hangman = [ bitay, bt, hang, hm ] 
+  highlow = [ hl, taasbaba, tb ]
+  howbanal = [ banal, gaanokabanal, holy, holymeter ]
+  howhorny = [ gaanokahorny, horny, hornymeter, tigang ]
+  hownpa = [ gaanokanpa, nationalpeoplesarmy, npa, npameter ]
+  howpretty = [ beautiful, beauty, gaanokaganda, ganda, pretty, prettymeter ]
+  howsus = [ gaanokasus, sus, susmeter ]
+  howugly = [ gaanokapangit, pangit, ugly, uglymeter ]
+  lenny = [ ]
+  ligtaspoints = [ howligtas, howlp, ligtas, lp, points ]
+  omikuji = [ fortune, fortunetelling, gaanokaswerte, howlucky, luck, swerte, 御御籤, 御神籤, おみくじ ]
+  pekofy = [ peko, pekora, usada ]
+  penis = [ pp, tite, titi ]
+  renz = [ jared, rolle, cc, etiketa, tag, tags ]
+  rockpaperscissors = [ batobatopik, bbp, janken, rps ]
+  titobadang = [ tito, badang ]
+  trivia = [ alam, kaalaman, tr, triv ]
+
+  // Tool commands
+  bible = [ bb, bib, bibliya ]
+  mathematics = [ c, calculate, calculator, kalkula, kalkulahin, m, matematika, math, pagkakalkula, sipnayan ]
+  nhentai = [ nh ]
+  myanimelist = [ mal ]
+  qr = [ qrcode ]
+  saucenao = [ sabaw, sarsa, sauce ]
+  translate = [ isalin, pagsasalin, salin, tl ]
+  wikipedia = [ encyclopedia, ensiklopedya, wiki, wp ]
+
+  // Music Commands
+  back = [ b, balik, ibalik ]
+  lyrics = [ l, lirika, liriks ]
+  nowplaying = [ np, current, k, kasalukuyan ]
+  play = [ p, t, tumugtog, tugtog, join, sali, gising, resume, "-" ]
+  playlist = [ pl ]
+  playlists = [ mgaplaylist, pls ]
+  queue = [ q, pila ]
+  remove = [ delete, r, tanggal, tanggalin ]
+  scsearch = [ scsaliksik, scs schanap, scsaliksik ]
+  search = [ s, ytsearch, magsaliksik, saliksik, hanap, hanapin ]
+  seek = [ pumunta, punta ]
+  shuffle = [ balasa, balasahin, paghaluin, sh ]
+  skip = [ laktaw, laktawan, voteskip ]
+
+  // DJ Commands
+  forceremove = [ fd, forcedelete, moddelete, modremove, pilittanggal, sapilitangpagtanggal, sapilitangtanggalin ]
+  forceskip = [ modskip, next, sk, sunod ]
+  movetrack = [ ilipat, lipat, move ]
+  pause = [ teka, tekalang, tulog, wait, waitlang ]
+  playnext = [ "-next", "-sunod", i, isunod, pnext, tsunod, tugtogsunod ]
+  repeat = [ loop, pag-uulit, ulit, umulit, ulitin ]
+  skipto = [ jump, jumpto, talon, tumalon ]
+  stop = [ alis, disconnect, hinto, itigilnanatinto, layas, leave, tigil ]
+  volume = [ vol, lakas ]
+
+  // Admin commands
+  kick = [ patalsikin, sipa, sipain ]
+  prefix = [ gawingprefix, setprefix ]
+  setcompactmode = [ magpaikli, paikliin ]
+  setdj = [ dj, gawingdj, setdjrole ]
+  setgiveaway = [ gawingpamimigay, setga, setgarole, setgiveawayrole ]
+  setlanguage = [ gawinglengwahe, gawingwika, lang, lengwahe, setlang, wika ]
+  setrestrictedtc = [ pagbawalan, restrict, setrestrict, setrtc ]
+  setskip = [ setskippercent, setskipratio, skippercent]
+  settc = [ gawingtc, tc ]
+  setvc = [ gawingvc, vc ]
+  warn = [ babala, balaan, w, warning ]
+
+  // Owner commands
+  owner = [ eval, evaluate ]
+}
+
+/// END OF RENZBOT CONFIG ///

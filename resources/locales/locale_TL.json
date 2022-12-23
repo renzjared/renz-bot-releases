@@ -1,0 +1,26 @@
+{
+"error_title": "Kamalian",
+"error_title_permission": "Kamalian",
+"error_message_permission_dj_null": "Tanging mga server DJ lamang ang maaaring gumamit ng utos na ito!",
+"error_message_permission_dj": "Tanging mga miyembrong may role na %1$s lamang ang maaaring gumamit ng utos na ito!",
+"error_message_permission_admin": "Tanging mga server admin o ang mga miyembrong may `Permission.MANAGE_SERVER` lamang ang maaaring gumamit ng utos na ito!",
+
+"8ball_error_blank": "Mangyaring magsama ng isang tanong para sa mahiwagang 8 ball.",
+"8ball_title": "Mahiwagang 8 Ball",
+"8ball_question": "Tanong",
+
+"badge_developer_desc": "Ang may-ari at tagapaglikha ng Renz-Bot",
+"badge_veteran_desc": "Gumamit ng Renz-Bot habang ito ay nasa `Alpha-Testing Phase` pa lamang",
+"badge_1stanniversary_desc": "Gumagamit ng Renz-Bot sa ganap na 11 Agosto 2022, o mas maaga pa",
+
+"bible_title": "Bibliya",
+"bible_error_notfound": "Hindi mahanap ang `%1$s` mula sa Bibliya.",
+"bible_error_notfound_succeeding": "Hindi mahanap ang mga kasunod na bersikulo.",
+"bible_loading": "Naglo-load...",
+
+"game_you_won": "Nanalo Ka",
+"game_you_lost": "Natalo Ka",
+"game_hangman_name": "Bitay",
+"game_hangman_guesses": "Mga Hula",
+"game_hangman_remainingmistakes": "Natitirang Kamalian"
+}

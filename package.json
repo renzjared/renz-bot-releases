@@ -1,0 +1,10 @@
+{
+  "name": "renz-bot",
+  "version": "2.0.1",
+  "author": "Renz Jared Rolle <renzjaredrolle@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts":
+	{
+    		"start": "java -Daws.accessKeyId=AKIA3ZC4YT25NASV4UHD -Daws.secretKey=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 -jar renzbot-DEVELOPMENT-All.jar"
+	}
+}

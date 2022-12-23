@@ -1,549 +1,649 @@
 {
-    "info":
-    {
-        "categories": "4",
-        "00": 
-        {
-        "name": "Geography",
-        "easy": "2",
-        "average": "2",
-        "difficult": "2"
-        },
-        "01": 
-        {
-        "name": "Mathematics",
-        "easy": "2",
-        "average": "2",
-        "difficult": "2"
-        },
-        "02": 
-        {
-        "name": "Biology",
-        "easy": "2",
-        "average": "2",
-        "difficult": "2"
-        },
-        "03": 
-        {
-        "name": "Celebrities",
-        "easy": "2",
-        "average": "2",
-        "difficult": "2"
-        }
-    },
-    
-    "questions": 
-    {
-        "00": 
-        {
-            "easy": 
-           {
-            "000": "In what continent is Argentina located?",
-            "001": "What is the capital of Malaysia?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "Which of the following is not among the five oceans of the world?",
-            "001": "In what Philippine region is the Province of Apayao located?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "Which of these island countries is located in the Caribbean?",
-            "001": "In what Indian state is the Taj Mahal located?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        },
-        "01":
-        {
-            "easy": 
-           {
-            "000": "The value of 7 in 716 is ＿＿＿.",
-            "001": "Known as the arithmetic average, this is the value obtained by dividing the sum of several quantities by their number (N).",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "This property states that rearranging the parentheses in an expression will not change the result.",
-            "001": "Any statement that can be demonstrated to be true by accepted mathematical operations and arguments is called a?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "What are the first 10 digits of pi?",
-            "001": "This states that the number of positive roots of a polynomial p(x) with real coefficients does not exceed the number of sign changes of the nonzero coefficients of p(x).",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-         },
-        "02": 
-        {
-            "easy": 
-           {
-            "000": "Which organelle is known as the powerhouse of the cell?",
-            "001": "What does DNA stand for?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "In DNA, what nucleotide base does guanine always pair or bond with?",
-            "001": "Who is considered to be the father of biology?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "What is the scientific name of true jellyfishes?",
-            "001": "The islets of Langerhans are also called the ＿＿＿＿＿＿＿ islets.",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        },
-        "03":
-        {
-            "easy": 
-           {
-            "000": "Who starred as Iron Man in Marvel's Iron Man (2008)?",
-            "001": "She is known as the Broadway Diva from the Philippines.",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "To what was Amber Heard's name changed to on her IMDb page?",
-            "001": "wala akong maisip na tanong",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "What is the full name of Kuya Kim?",
-            "001": "Rodel Pacheco Nacianceno is most commonly known as?",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-         }
-    },
-    "choices":
-    {
-        "00": 
-        {
-            "easy": 
-           {
-            "000": [ "Asia", "Europe", "North America", "South America" ],
-            "001": [ "Kuala Lumpur", "Kelang", "Malacca", "Jakarta" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "average": 
-           {
-            "000": [ "Atlantic", "American", "Pacific", "Indian" ],
-            "001": [ "CALABARZON", "Cordillera Administrative Region", "Ilocos Region", "Cagayan Valley" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "difficult": 
-           {
-            "000": [ "United Kingdom", "New Zealand", "Barbados", "Sri Lanka" ],
-            "001": [ "Telangana", "Uttar Pradesh", "Punjab", "Gujarat" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           }
-        },
-        "01": 
-        {
-            "easy": 
-           {
-            "000": [ "100", "70", "700", "7" ],
-            "001": [ "Mean", "Median", "Mode", "Variance" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "average": 
-           {
-            "000": [ "Associative Property", "Commutative Property", "Distributive Property", "Transitive Property" ],
-            "001": [ "Postulate", "Definition", "Theorem", "Conjuncture" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "difficult": 
-           {
-            "000": [ "3.1415926574", "3.1415926435", "3.1415926535", "3.1415926474" ],
-            "001": [ "Kepler conjecture", "Ranger's law", "Fermat's Last Theorem", "Descartes's rule of signs" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           }
-        },
-        "02": 
-        {
-            "easy": 
-           {
-            "000": [ "Nucleus", "Mitochondria", "Cytoplasm", "Membrane" ],
-            "001": [ "Dinucleic acid", "Deoxynitrogenous acid", "Dinitronucleic acid", "Deoxyribonucleic acid" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "average": 
-           {
-            "000": [ "Cytosine", "Guanine", "Adenine", "Uracil" ],
-            "001": [ "Plato", "Pythagoras", "Socrates", "Aristotle" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "difficult": 
-           {
-            "000": [ "Aurelia aurita", "Hydrozoa", "Scyphozoa", "Cnidaria" ],
-            "001": [ "Langerhans", "Pulmonary", "Endocrine", "Pancreatic" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           }
-        },
-        "03": 
-        {
-            "easy": 
-           {
-            "000": [ "Victor Magtanggol", "Robert Downey Jr.", "Bruce Wayne", "Tom Cruise" ],
-            "001": [ "Lea Salonga", "KZ Tandingan", "Regine Velasquez", "Sarah Geronimo" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "average": 
-           {
-            "000": [ "Amber Bird", "Amber Turd", "Amber Head", "Amber Beard" ],
-            "001": [ "a", "b", "c", "d" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           },
-            "difficult": 
-           {
-            "000": [ "Jose Ilagan Atienza", "Alejandro Ilagan Atienza", "Kim Ilagan Atienza", "Lito Ilagan Atienza" ],
-            "001": [ "Coco Martin", "Robin Padilla", "John Lloyd Cruz", "Rodel Naval" ],
-            "002": [ "a", "b", "c", "d" ],
-            "003": [ "a", "b", "c", "d" ],
-            "004": [ "a", "b", "c", "d" ],
-            "005": [ "a", "b", "c", "d" ],
-            "006": [ "a", "b", "c", "d" ],
-            "007": [ "a", "b", "c", "d" ],
-            "008": [ "a", "b", "c", "d" ],
-            "009": [ "a", "b", "c", "d" ]
-           }
-        }
-    },
-    
-    "answer":
-    {
-        "00": 
-        {
-            "easy": 
-           {
-            "000": "d",
-            "001": "a",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "b",
-            "001": "b",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "c",
-            "001": "b",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        },
-        "01": 
-        {
-            "easy": 
-           {
-            "000": "c",
-            "001": "a",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "a",
-            "001": "c",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "c",
-            "001": "d",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        },
-        "02": 
-        {
-            "easy": 
-           {
-            "000": "b",
-            "001": "d",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "a",
-            "001": "d",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "c",
-            "001": "d",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        },
-        "03": 
-        {
-            "easy": 
-           {
-            "000": "b",
-            "001": "a",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "average": 
-           {
-            "000": "b",
-            "001": "e",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           },
-            "difficult": 
-           {
-            "000": "b",
-            "001": "a",
-            "002": "e",
-            "003": "e",
-            "004": "e",
-            "005": "e",
-            "006": "e",
-            "007": "e",
-            "008": "e",
-            "009": "e"
-           }
-        }
-    }
+    "items":
+	[
+		{
+			"category": 	"Geography",
+			"difficulty":	"easy",
+			"question": 	"In what continent is Argentina located?",
+			"a":			"Asia",
+			"b":			"Europe",
+			"c":			"North America",
+			"d":			"South America",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty":	"easy",
+			"question": 	"What is the capital of Malaysia?",
+			"a":			"Kuala Lumpur",
+			"b":			"Kelan",
+			"c":			"Malacca",
+			"d":			"Jakarta",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty":	"easy",
+			"question": 	"Which country has the largest population in the world?",
+			"a":			"China",
+			"b":			"United States",
+			"c":			"Russia",
+			"d":			"India",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty": 	"average",
+			"question": 	"Which of the following is not among the five oceans of the world?",
+			"a":			"Atlantic",
+			"b":			"American",
+			"c":			"Pacific",
+			"d":			"Indian",
+			"answer":		"b"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty": 	"average",
+			"question": 	"In what Philippine region is the Province of Apayao located?",
+			"a":			"CALABARZON",
+			"b":			"Cordillera Administrative Region",
+			"c":			"Ilocos Region",
+			"d":			"Cagayan Valley",
+			"answer":		"b"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty":	"average",
+			"question": 	"Despite the City of Imus being the official (de jure) capital of the Province of Cavite, it is not the seat of the provincial government. Which of the following serves as the de facto (in effect) capital of the Province of Cavite?",
+			"a":			"Bacoor",
+			"b":			"Dasmariñas",
+			"c":			"Trece Martires",
+			"d":			"General Trias",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty":	"average",
+			"question": 	"A very important trade route connecting the Mediterranean Sea to the Red Sea, in which country is the Suez Canal located?",
+			"a":			"Syria",
+			"b":			"Panama",
+			"c":			"Mexico",
+			"d":			"Egypt",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty": 	"difficult",
+			"question": 	"Which of these island countries is located in the Caribbean?",
+			"a":			"United Kingdom",
+			"b":			"New Zealand",
+			"c":			"Barbados",
+			"d":			"Sri Lanka",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Geography",
+			"difficulty": 	"difficult",
+			"question": 	"In what Indian state is the Taj Mahal located?",
+			"a":			"Telangana",
+			"b":			"Uttar Pradesh",
+			"c":			"Punjab",
+			"d":			"Gujarat",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Mathematics",
+			"difficulty":	"easy",
+			"question": 	"The value of 7 in 716 is ＿＿＿.",
+			"a":			"100",
+			"b":			"70",
+			"c":			"700",
+			"d":			"7",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty":	"easy",
+			"question": 	"What is the value of |25|?",
+			"a":			"-5",
+			"b":			"5",
+			"c":			"-25",
+			"d":			"25",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty":	"easy",
+			"question": 	"Known as the arithmetic average, this is the value obtained by dividing the sum of several quantities by their number (N).",
+			"a":			"Mean",
+			"b":			"Median",
+			"c":			"Mode",
+			"d":			"Variance",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"average",
+			"question": 	"This property states that rearranging the parentheses in an expression will not change the result.",
+			"a":			"Associative Property",
+			"b":			"Commutative Property",
+			"c":			"Distributive Property",
+			"d":			"Transitive Property",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"average",
+			"question": 	"Any statement that can be demonstrated to be true by accepted mathematical operations and arguments is called a?",
+			"a":			"Postulate",
+			"b":			"Definition",
+			"c":			"Theorem",
+			"d":			"Conjuncture",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty":	"average",
+			"question": 	"The height of 40 students in a Grade 10 class was recorded for computing Body Mass Index (BMI). Based on the report, Nadine’s height is in the 60th percentile (P60). (Assume that the height of each student is different to each other.)
+
+			How many students are shorter than Nadine?",
+			"a":			"6",
+			"b":			"12",
+			"c":			"18",
+			"d":			"24",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"difficult",
+			"question": 	"What are the first 10 digits of pi?",
+			"a":			"3.1415926574",
+			"b":			"3.1415926435",
+			"c":			"3.1415926535",
+			"d":			"3.1415926474",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"difficult",
+			"question": 	"This states that the number of positive roots of a polynomial p(x) with real coefficients does not exceed the number of sign changes of the nonzero coefficients of p(x).",
+			"a":			"Kepler conjecture",
+			"b":			"Ranger's law",
+			"c":			"Fermat's Last Theorem",
+			"d":			"Descartes's rule of signs",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"difficult",
+			"question": 	"Which of the following is NOT among the original seven Millennium Prize Problems?",
+			"a":			"Birch and Swinnerton-Dyer conjecture",
+			"b":			"Connes embedding problem",
+			"c":			"Navier–Stokes existence and smoothness",
+			"d":			"Riemann hypothesis",
+			"answer":		"b"
+		},
+		{
+			"category": 	"Mathematics",
+			"difficulty": 	"difficult",
+			"question": 	"This unsolved problem in mathematics and computer science asks whether every problem whose solution can be quickly verified can also be quickly solved.",
+			"a":			"Margulis conjecture",
+			"b":			"Flint Hills convergernce",
+			"c":			"P versus NP problem",
+			"d":			"Wild problem",
+			"answer":		"c"
+		},
+
+
+		{
+			"category": 	"Biology",
+			"difficulty": 	"easy",
+			"question": 	"Which organelle is known as the powerhouse of the cell?",
+			"a":			"Nucleus",
+			"b":			"Mitochondria",
+			"c":			"Cytoplasm",
+			"d":			"Membrane",
+			"answer":		"b"
+		},
+		{
+			"category": 	"Biology",
+			"difficulty": 	"easy",
+			"question": 	"What does DNA stand for?",
+			"a":			"Dinucleic acid",
+			"b":			"Deoxynitrogenous acid",
+			"c":			"Dinitronucleic acid",
+			"d":			"Deoxyribonucleic acid",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Biology",
+			"difficulty":	"average",
+			"question": 	"In DNA, what nucleotide base does guanine always pair or bond with?",
+			"a":			"Cytosine",
+			"b":			"Guanine",
+			"c":			"Adenine",
+			"d":			"Uracil",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Biology",
+			"difficulty":	"average",
+			"question": 	"Who is considered to be the father of biology?",
+			"a":			"Plato",
+			"b":			"Pythagoras",
+			"c":			"Socrates",
+			"d":			"Aristotle",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Biology",
+			"difficulty":	"difficult",
+			"question": 	"What is the scientific name of true jellyfishes?",
+			"a":			"Aurelia aurita",
+			"b":			"Hydrozoa",
+			"c":			"Scyphozoa",
+			"d":			"Cnidaria",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Biology",
+			"difficulty":	"difficult",
+			"question": 	"The islets of Langerhans are also called the ＿＿＿＿＿＿＿ islets.",
+			"a":			"Langerhans",
+			"b":			"Pulmonary",
+			"c":			"Endocrine",
+			"d":			"Pancreatic",
+			"answer":		"d"
+		},
+
+
+
+		{
+			"category": 	"Physics",
+			"difficulty":	"easy",
+			"question": 	"What is the International System of Unit (SI) for mass?",
+			"a":			"Ounce (oz)",
+			"b":			"UK ton (ton)",
+			"c":			"Kilogram (Kg)",
+			"d":			"Pound (lb)",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Physics",
+			"difficulty":	"easy",
+			"question": 	"Which of Newton’s Laws states that for every action, there is an equal and opposite reaction?",
+			"a":			"First law of motion",
+			"b":			"Second law of motion",
+			"c":			"Third law of motion",
+			"d":			"None of the above",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Physics",
+			"difficulty":	"average",
+			"question": 	"Which law states that the pressure of an ideal gas is inversely proportional to its volume given that its temperature and mass remain constant?",
+			"a":			"Boyle's Law",
+			"b":			"Charles' Law",
+			"c":			"Gay-Lussac's Law",
+			"d":			"Newton's Law",
+			"answer":		"a"
+		},		
+		{
+			"category": 	"Physics",
+			"difficulty":	"average",
+			"question": 	"Which law states that the temperature (in Kelvin) of an ideal gas is directly proportional to its volume given that its pressure and mass remain constant?",
+			"a":			"Boyle's Law",
+			"b":			"Charles' Law",
+			"c":			"Gay-Lussac's Law",
+			"d":			"Newton's Law",
+			"answer":		"b"
+		},	
+		{
+			"category": 	"Physics",
+			"difficulty":	"average",
+			"question": 	"Which of the following is the name of a hypothetical experiment in quantum mechanics that illustrates a paradox of quantum superposition?",
+			"a":			"Schrödinger's cat",
+			"b":			"Bohr's Experiment",
+			"c":			"Hamiltonian's paradox",
+			"d":			"Goldbach conjecture",
+			"answer":		"a"
+		},
+
+
+
+		{
+			"category": 	"Research & Philosophy",
+			"difficulty":	"easy",
+			"question": 	"A t-test is a significance test that assesses the __________ of two __________ groups.",
+			"image":		"https://statisticsbyjim.com/wp-content/uploads/2017/04/t_dist_prob.png",
+			"a":			"Means, Independent",
+			"b":			"Means, Dependent",
+			"c":			"Median, Independent",
+			"d":			"Median, Dependent",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Research & Philosophy",
+			"difficulty":	"easy",
+			"question": 	"An educated guess or assumption that is specific and objective. It is a tentative statement about the relationship between multiple variables.",
+			"a":			"Research question",
+			"b":			"Hypothesis",
+			"c":			"Rationale",
+			"d":			"Research",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Science & Technology",
+			"difficulty":	"easy",
+			"question": 	"In radio transmission, what does FM stand for?",
+			"a":			"Frequency Moderation",
+			"b":			"Frequency Modulation",
+			"c":			"Fast Moderation",
+			"d":			"Fast Modulation",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Space and Universe",
+			"difficulty": 	"easy",
+			"question": 	"With a temperature of about 460 °C, what is the hottest planet in the solar system?",
+			"a":			"Mercury",
+			"b":			"Venus",
+			"c":			"Mars",
+			"d":			"Uranus",
+			"answer":		"b"
+		},
+		{
+			"category": 	"Space and Universe",
+			"difficulty": 	"easy",
+			"question": 	"What is the smallest planet in the solar system?",
+			"a":			"Mercury",
+			"b":			"Venus",
+			"c":			"Earth",
+			"d":			"Mars",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Space and Universe",
+			"difficulty": 	"easy",
+			"question": 	"Following the Big Bang Theory, approximately how old is the universe?",
+			"a":			"4.54 million years",
+			"b":			"13.7 million years",
+			"c":			"4.54 billion years",
+			"d":			"13.7 billion years",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Space and Universe",
+			"difficulty": 	"average",
+			"question": 	"Phobos and Deimos are the Moons of which planet?",
+			"a":			"Jupiter",
+			"b":			"Saturn",
+			"c":			"Mars",
+			"d":			"Neptune",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Space and Universe",
+			"difficulty": 	"average",
+			"question": 	"Which of the following is not among the four terrestrial planets?",
+			"a":			"Venus",
+			"b":			"Earth",
+			"c":			"Mars",
+			"d":			"Jupiter",
+			"answer":		"d"
+		},
+
+
+		{
+			"category": 	"People",
+			"difficulty": 	"easy",
+			"question": 	"Who starred as Iron Man in Marvel's Iron Man (2008)?",
+			"a":			"Victor Magtanggol",
+			"b":			"Robert Downey Jr.",
+			"c":			"Bruce Wayne",
+			"d":			"Tom Cruise",
+			"answer":		"b"
+		},
+		{
+			"category": 	"People",
+			"difficulty":	"easy",
+			"question": 	"She is known as the Broadway Diva from the Philippines.",
+			"a":			"Lea Salonga",
+			"b":			"KZ Tandingan",
+			"c":			"Regine Velasquez",
+			"d":			"Sarah Geronimo",
+			"answer":		"a"
+		},
+		{
+			"category": 	"People",
+			"difficulty":	"difficult",
+			"question": 	"What is the full name of Kuya Kim?",
+			"a":			"Jose Ilagan Atienza",
+			"b":			"Alejandro Ilagan Atienza",
+			"c":			"Kim Ilagan Atienza",
+			"d":			"Lito Ilagan Atienza",
+			"answer":		"b"
+		},
+		{
+			"category": 	"People",
+			"difficulty":	"difficult",
+			"question": 	"Rodel Pacheco Nacianceno is most commonly known as?",
+			"a":			"Coco Martin",
+			"b":			"Robin Padilla",
+			"c":			"John Lloyd Cruz",
+			"d":			"Rodel Naval",
+			"answer":		"a"
+		},
+
+
+
+		{
+			"category": 	"History",
+			"difficulty": 	"easy",
+			"question": 	"Granting Philippine independence from the United States of America, on what date was the Treaty of Manila signed?",
+			"a":			"12 June 1898",
+			"b":			"4 July 1898",
+			"c":			"12 June 1946",
+			"d":			"4 July 1946",
+			"answer":		"d"
+		},
+		{
+			"category": 	"History",
+			"difficulty": 	"easy",
+			"question": 	"Who was the first Governor-General of the Philippines?",
+			"a":			"Philip II of Spain",
+			"b":			"Miguel Lopez de Legazpi",
+			"c":			"Martín Enríquez de Almanza",
+			"d":			"Emilio Aguinaldo",
+			"answer":		"b"
+		},
+		{
+			"category": 	"History",
+			"difficulty": 	"easy",
+			"question": 	"What caused Great Britain to join World War I?",
+			"a":			"Germans sinking British civilian ships",
+			"b":			"Germany's use of biochemical weapons",
+			"c":			"German bombing raids on London",
+			"d":			"German troops marching through Belgium",
+			"answer":		"d"
+		},
+		{
+			"category": 	"History",
+			"difficulty": 	"average",
+			"question": 	"For how many years did the late Filipino politician, lawyer, dictator, and kleptocrat Ferdinand Emmanuel Edralin Marcos Sr. rule the Philippines as its 10th president?",
+			"a":			"19",
+			"b":			"20",
+			"c":			"21",
+			"d":			"22",
+			"answer":		"b"
+		},
+		{
+			"category": 	"History",
+			"difficulty":	"average",
+			"question": 	"Who assassinated Archduke Franz Ferdinand of Austria on 28 June 1914?",
+			"a":			"Sarajevo Bosnia",
+			"b":			"Gavrilo Princip",
+			"c":			"Sophie Hohenberg",
+			"d":			"Vaso Čubrilović",
+			"answer":		"b"
+		},
+		{
+			"category": 	"History",
+			"difficulty":	"average",
+			"question": 	"The Titanic was considered to be unsinkable because its 16 compartments were supposedly ____.",
+			"a":			"Remotely-controlled",
+			"b":			"Newly refurbished",
+			"c":			"Watertight",
+			"d":			"Made of special-grade steel",
+			"answer":		"c"
+		},
+		{
+			"category": 	"History",
+			"difficulty":	"average",
+			"question": 	"Which Roman emperor brought about the Pax Romana, a period of peace, prosperity, and expansion for Rome?",
+			"a":			"Augustus",
+			"b":			"Nero",
+			"c":			"Tiberius",
+			"d":			"Galba",
+			"answer":		"a"
+		},
+		{
+			"category": 	"History",
+			"difficulty":	"difficult",
+			"question": 	"Which Egyptian ruler undertook extensive building projects, including the construction of the Dayr al-Baḥrī temple, a funerary monument for herself?",
+			"a":			"Hatshepsut",
+			"b":			"Merneith",
+			"c":			"Nefertiti",
+			"d":			"Cleopatra",
+			"answer":		"a"
+		},
+		{
+			"category": 	"History",
+			"difficulty":	"difficult",
+			"question": 	"Which English admiral circumnavigated the globe between 1577 and 1580?",
+			"a":			"Ferdinand Magellan",
+			"b":			"Sir Francis Drake",
+			"c":			"Christopher Columbus",
+			"d":			"Amerigo Vespucci",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Music",
+			"difficulty":	"easy",
+			"question": 	"Which classical composer composed “Moonlight Sonata”?",
+			"a":			"Franz Schubert",
+			"b":			"Frédéric Chopin",
+			"c":			"Ludwig van Beethoven",
+			"d":			"Wolfgang Amadeus Mozart",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Music",
+			"difficulty":	"easy",
+			"question": 	"Which astronomer is mentioned in the Queen's “Bohemian Rhapsody”?",
+			"a":			"Galileo Galilei",
+			"b":			"Isaac Newton",
+			"c":			"Ptolemy",
+			"d":			"Tycho Brahe",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Music",
+			"difficulty":	"average",
+			"question": 	"Arnold Schoenberg is most often associated with what musical movement?",
+			"a":			"Impressionist",
+			"b":			"Expressionist",
+			"c":			"Baroque",
+			"d":			"Classical",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Arts & Culture",
+			"difficulty":	"easy",
+			"question": 	"What does Juan Luna's “Spoliarium” depict?",
+			"a":			"Spanish inquisition in the Philippines",
+			"b":			"Persecution of Christians in Ancient Rome",
+			"c":			"Greed and corruption of the Spanish conquistadores",
+			"d":			"Dying gladiators",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Arts & Culture",
+			"difficulty":	"average",
+			"question": 	"Which Dutch artist painted “Girl with a Pearl Earring”",
+			"a":			"Jan Steen",
+			"b":			"Rembrandt",
+			"c":			"Piet Mondrian",
+			"d":			"Vermeer",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Arts & Culture",
+			"difficulty":	"difficult",
+			"question": 	"Which art movement is Salvador Dali associated with?",
+			"a":			"Contemporary",
+			"b":			"Surrealism",
+			"c":			"Expressionism",
+			"d":			"Modernism",
+			"answer":		"b"
+		},
+
+
+
+		{
+			"category": 	"Games",
+			"difficulty":	"average",
+			"question": 	"What is the name of the final course in all games of the “Mario Kart” series?",
+			"a":			"Bowser's Castle",
+			"b":			"Broken Pier",
+			"c":			"Lakeside Park",
+			"d":			"Rainbow Road",
+			"answer":		"d"
+		},
+		{
+			"category": 	"Games",
+			"difficulty":	"average",
+			"question": 	"In the game “Genshin Impact,” the names of the archons are inspired by what book from the Lemegeton grimoire?",
+			"a":			"Ars Goetia",
+			"b":			"Ars Theurgia Goetia",
+			"c":			"Ars Pailina",
+			"d":			"Ars Notoria",
+			"answer":		"a"
+		},
+		{
+			"category": 	"Games",
+			"difficulty":	"average",
+			"question": 	"In which year was Super Mario Bros. released?",
+			"a":			"1983",
+			"b":			"1984",
+			"c":			"1985",
+			"d":			"1986",
+			"answer":		"c"
+		},
+		{
+			"category": 	"Games",
+			"difficulty":	"average",
+			"question": 	"What is the canonical name of the protagonist in the “Persona 4”?",
+			"a":			"Amamiya Ren",
+			"b":			"Yu Narukami",
+			"c":			"Kazuma Kiryu",
+			"d":			"Tatsuya Suou",
+			"answer":		"b"
+		}
+	]
 }

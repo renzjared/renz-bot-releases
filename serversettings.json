@@ -1,5 +1,44 @@
-{"813067207391182870": {
-    "language": "TL",
-    "dj_role_id": "813077275519090748",
-    "default_playlist": "default"
-}}
+{
+    "997096328133882002": {
+        "giveaway_role_id": "1002834529205112902",
+        "nsfw": false,
+        "skip_ratio": 0.25,
+        "text_channel_id": "1001491351092863076",
+        "forbidden_audio": true,
+        "restricted_text_channel_id": "997096328633012357",
+        "language": "TL",
+        "dj_role_id": "1001436187405320282"
+    },
+    "813067207391182870": {
+        "giveaway_role_id": "993776516242616340",
+        "compactmode": "OFF",
+        "nsfw": true,
+        "text_channel_id": "813069818868924447",
+        "forbidden_audio": true,
+        "restricted_text_channel_id": "813077464330272839",
+        "language": "TL",
+        "dj_role_id": "813077275519090748",
+        "birthday_channel_id": "985847197541204008"
+    },
+    "926729522768912444": {
+        "giveaway_role_id": "993823721016016948",
+        "nsfw": true,
+        "text_channel_id": "0",
+        "forbidden_audio": true,
+        "restricted_text_channel_id": "979628518923173959",
+        "language": "TL",
+        "dj_role_id": "930612799594442792"
+    },
+    "742259024690544730": {
+        "giveaway_role_id": "0",
+        "text_channel_id": "0",
+        "restricted_text_channel_id": "0",
+        "dj_role_id": "0"
+    },
+    "935812012838105098": {
+        "giveaway_role_id": "0",
+        "text_channel_id": "0",
+        "restricted_text_channel_id": "0",
+        "dj_role_id": "0"
+    }
+}

@@ -1,0 +1,26 @@
+{
+"error_title": "Error",
+"error_title_permission": "Error",
+"error_message_permission_dj_null": "This command can only be used by server DJs!",
+"error_message_permission_dj": "This command can only be used by members with the %1$s role!",
+"error_message_permission_admin": "This command can only be used by server admins or those with `Permission.MANAGE_SERVER`!",
+
+"8ball_error_blank": "Please include a question for the magic 8 ball.",
+"8ball_title": "Magic 8 Ball",
+"8ball_question": "Question",
+
+"badge_developer_desc": "The owner and developer of Renz-Bot",
+"badge_veteran_desc": "Used Renz-Bot while it was still in the `Alpha-Testing Phase`",
+"badge_1stanniversary_desc": "Used Renz-Bot on 11 August 2022 or earlier",
+
+"bible_title": "Bible",
+"bible_error_notfound": "Unable to find `%1$s` from the Bible.",+
+"bible_error_notfound_succeeding": "Unable to find the succeeding verses.",
+"bible_loading": "Loading...",
+
+"game_you_won": "You Won",
+"game_you_lost": "You Lost",
+"game_hangman_name": "Hangman",
+"game_hangman_guesses": "Guesses",
+"game_hangman_remainingmistakes": "Remaining Mistakes"
+}

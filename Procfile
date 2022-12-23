@@ -1,1 +1,1 @@
-worker: java -jar RenzBot-1.4.0.jar
+worker: java -Daws.accessKeyId=AKIA3ZC4YT25NASV4UHD -Daws.secretKey=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 -jar renzbot-DEVELOPMENT-All.jar
