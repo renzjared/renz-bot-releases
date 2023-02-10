@@ -1,0 +1,16 @@
+{
+"emoji":
+	{
+	"developer": "<:DeveloperBadge:1006909520573894676>",
+	"veteran": "<:VeteranBadge:1006921805891649698>",
+	"1stanniversary": "<:1stAnniversaryBadge:1006931732840316968>",
+	"puregold": "<:>"
+	},
+"id":
+	{
+	"DeveloperBadge": "developer",
+	"VeteranBadge": "veteran",
+	"1stAnniversaryBadge": "1stanniversary",
+	"puregold": "puregold"
+	}
+}

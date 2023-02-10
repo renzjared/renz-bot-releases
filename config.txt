@@ -26,8 +26,8 @@ owner =
 // Age restricted videos from Youtube will not play.
 // Consult the wiki on how to get these tokens.
 
-PAPISID = "DPAa66pN6rqyX0f-/Abjlc4YHGzwW2C7JQ" //PAPI SID
-PSID = "Ighgx7UtNtBwToE-vG2DVIehFh12KeXc-voG9vmvr5DKM5NjOM367LAUkt3ttJ6Ag_b1sg."    //P SID
+PAPISID = "BLANK"
+PSID = "BLANK"
 
 // This sets the prefix for the bot
 // The prefix is used to control the commands
@@ -44,7 +44,7 @@ prefix = "-"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "Listening to -help"
+game = "Listening to #play"
 
 
 // If you set this, it will modify the default status of bot
@@ -57,7 +57,7 @@ status = ONLINE
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus=true
+songinstatus=false
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -68,10 +68,10 @@ altprefix = "@mention"
 
 // This sets the footer message that is displayed in queue messages.
 
-footerMessage = ""
-footerMessageTL = ""
-footerMessageTL2 = ""
-footerMessageJP = ""
+footerMessage = "RenzBot Version 2.1 Preview. [DEV] Channel.\n"
+footerMessageTL = "Pasilip ng Bersiyon 2.1 ng RenzBot. [DEV] Channel.\n"
+footerMessageTL2 = "Pasilip ng Bersiyon 2.1 ng RenzBot. [DEV] Channel.\n"
+footerMessageJP = "RenzBot Version 2.1 Preview. [DEV] Channel.\n"
 
 
 // If you set these, it will change the various emojis
@@ -139,16 +139,22 @@ maxsearchresults = 5
 
 playlistsfolder = "Playlists"
 
+
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
 // becomes available. Set this to false to disable this feature.
 
-updatealerts=true
+updatealerts=false
 
 
 // Changing this changes the lyrics provider
 // Currently available providers: "A-Z Lyrics", "Genius", "MusicMatch", "LyricsFreak"
+// At the time of writing, I would recommend sticking with A-Z Lyrics or MusicMatch,
+// as Genius tends to have a lot of non-song results and you might get something 
+// completely unrelated to what you want.
+// If you are interested in contributing a provider, please see
+// https://github.com/jagrosh/JLyrics
 
-lyrics.default = "A-Z Lyrics"
+lyrics.default = "Genius"
 
 
 // These settings allow you to configure custom aliases for all commands.
@@ -169,9 +175,11 @@ aliases {
   helpcmd = [ cmd, command, h, tulong ]
   giveaway = [ bigayan, ga, pagbibigay, pamimigay ]
   message = [ msg, mensahe ]
-  poll = [ boto, botohan, vote ]
+  poll = [ botohan ]
   profile = [ pf, serverprofile, spro, userinfo ]
   purge = [ clear, deletemsg, msgdelete, tanggalmensahe, purga ]
+  redeem = [ rd, rdm, redeemcode, tubos, tubosin, tubusin ]
+  server = [ srv ]
   settings = [ status ]
 
   // Fun commands
@@ -205,8 +213,10 @@ aliases {
   translate = [ isalin, pagsasalin, salin, tl ]
   wikipedia = [ encyclopedia, ensiklopedya, wiki, wp ]
 
-  // Music Commands
+  // Music commands
   back = [ b, balik, ibalik ]
+  chart = [ ch, ranking, rankings, tsart ]
+  favorite = [ fav, fave, g, gusto, paborito ]
   lyrics = [ l, lirika, liriks ]
   nowplaying = [ np, current, k, kasalukuyan ]
   play = [ p, t, tumugtog, tugtog, join, sali, gising, resume, "-" ]

@@ -137,6 +137,19 @@
 	"description":"**ipinakikita ang sukat ng pagkawalang-kilos o latency ng bot**",
 	"usage":"ping"
 	},
+"redeem":
+	{
+	"name":"tubos",
+	"globalname":"redeem",
+	"category":"Pangkalahatan",
+	"description":"**gumamit ng kodigo upang makatanggap ng mga premyo**",
+	"usage":"tubos <kodigo>",
+	"options":
+		"
+		• **kodigo**
+		<:Reply:986293903131050045>ang kodigo sa pagtubos na iyong gagamitin
+		"
+	},
 "server":
 	{
 	"name":"server",
@@ -149,6 +162,14 @@
 		• **ID**
 		<:Reply:986293903131050045>ang *ID* ng isang *Discord server* (halimbawa: `926729522768912444`)
 		"
+	},
+"vote":
+	{
+	"name":"bumoto",
+	"globalname":"vote",
+	"category":"Pangkalahatan",
+	"description":"**bumoto para sa Renz-bot sa top.gg upang makatanggap ng mga eksklusibong benepisyo at premyo**",
+	"usage":"bumoto"
 	},
 "settings":
 	{
@@ -592,6 +613,36 @@
 	"category":"Musika",
 	"description":"**ipinatutugtog muli ang huling tugtog o idinaragdag ito sa pinakadulo ng pila (kapag may mga tugtog na nakapila)**",
 	"usage":"ibalik"
+	},
+"chart":
+	{
+	"name":"tsart",
+	"globalname":"chart",
+	"category":"Musika",
+	"description":"**ipinakikita ang listahan ng mga pinakasikat na tugtog sa Renz-bot sa loob ng isang panahon**",
+	"usage":"tsart [uri] [panahon] [pahina]",
+	"options":
+		"
+		• **uri**
+		<:Reply:986293903131050045>ang uri ng tsart na ipakikita
+		<:Reply:986293903131050045>maaari itong `artista` o `tugtog`
+		<:Reply:986293903131050045>kapag walang tinukoy na uri, awtomatikong tsart ng mga tugtog ang ipakikita
+		• **panahon**
+		<:Reply:986293903131050045>ang panahon ng pagtatala na gagamitin para sa ipakikitang tsart
+		<:Reply:986293903131050045>ang bawat panahon ng pagtatala ay tumatagal ng isang buong buwan, at naka-anyong `TTTT-B`, kung saan ang `TTTT` ay ang taon at ang `B` ay ang buwan
+		<:Reply:986293903131050045>halimbawa: `2023-1` para sa buwan ng Enero 2023
+		<:Reply:986293903131050045>kapag walang tinukoy na panahon, awtomatikong ipakikita ang tsart para sa kasalukuyang buwan
+		• **pahina**
+		<:Reply:986293903131050045>ang pahina ng tsart (10 aytem ang ipinakikita sa bawat pahina)
+		"
+	},
+"favorite":
+	{
+	"name":"paborito",
+	"globalname":"favorite",
+	"category":"Music",
+	"description":"**idnaragdag (o tinatanggal) ang kasalukuyong tugtog sa/mula sa iyong \"Mga Paborito\" na playlist**",
+	"usage":"paborito"
 	},
 "lyrics":
 	{

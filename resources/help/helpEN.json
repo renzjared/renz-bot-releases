@@ -138,6 +138,19 @@
 	"description":"**shows the bot's latency**",
 	"usage":"ping"
 	},
+"redeem":
+	{
+	"name":"redeem",
+	"globalname":"redeem",
+	"category":"General",
+	"description":"**redeem a code in exchange for rewards**",
+	"usage":"redeem <code>",
+	"options":
+		"
+		• **code**
+		<:Reply:986293903131050045>the redeem code to be used
+		"
+	},
 "server":
 	{
 	"name":"server",
@@ -158,6 +171,14 @@
 	"category":"General",
 	"description":"**shows the bot's settings for the current server**",
 	"usage":"settings"
+	},
+"vote":
+	{
+	"name":"vote",
+	"globalname":"vote",
+	"category":"General",
+	"description":"**vote for Renz-bot in top.gg to receive exclusive benefits and prizes**",
+	"usage":"vote"
 	},
 
 
@@ -490,7 +511,7 @@
 		• **search**
 		<:Reply:986293903131050045>can be used to display multiple results from a search query
 		<:Reply:986293903131050045>this also lets you choose one entry to be displayed
-		<:Reply:986293903131050045>if this is not used, the command will automatically return the first result of the search query
+		<:Reply:986293903131050045>if the type is not specified, the command will automatically return the first result of the search query
 		• **name**
 		<:Reply:986293903131050045>the name of the anime or manga to be searched
 		"
@@ -594,6 +615,36 @@
 	"category":"Music",
 	"description":"**plays previous song or adds it to the back of queue (if the queue is not empty)**",
 	"usage":"back"
+	},
+"chart":
+	{
+	"name":"chart",
+	"globalname":"chart",
+	"category":"Music",
+	"description":"**shows the list of most-played tracks in Renz-bot within a set period**",
+	"usage":"chart [type] [period] [page]",
+	"options":
+		"
+		• **type**
+		<:Reply:986293903131050045>the type of chart to be played
+		<:Reply:986293903131050045>this can be `artist` or `track`
+		<:Reply:986293903131050045>if not specied, the command will automatically show the chart of the top tracks
+		• **period**
+		<:Reply:986293903131050045>the period of recording to be used for the chart to be displayed
+		<:Reply:986293903131050045>each recording period lasts one whole month, and is written in the form `YYYY-M`, wherein `YYYY` is the year and `M` is the month
+		<:Reply:986293903131050045>example: `2023-1` for the month of January 2023
+		<:Reply:986293903131050045>if not specified, the chart for the current recording month will be automatically shown
+		• **page**
+		<:Reply:986293903131050045>the chart page (a maximum of 10 items can be shown for each page)
+		"
+	},
+"favorite":
+	{
+	"name":"favorite",
+	"globalname":"favorite",
+	"category":"Music",
+	"description":"**adds (or removes) the currently-playing track to/from your \"Favorites\" playlist**",
+	"usage":"favorite"
 	},
 "lyrics":
 	{
