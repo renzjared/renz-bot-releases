@@ -721,12 +721,26 @@
 		• **list**
 		<:Reply:986293903131050045>lists all the available playlists
 
-		• **remove <name> | [scope]**
-		<:Reply:986293903131050045>removes the specified playlist
-		<:Reply:986293903131050045>by default, you may only remove your own playlists (private) and server playlists that you have created
-		<:Reply:986293903131050045>server admins or members with `Permission.MANAGE_SERVER` may remove any server playlist at will
-		**-** *name* - the name of the playlist to be removed
-		**-** *scope* - the scope or privacy level of the playlist to be removed
+		• **remove <name> | [scope] | [track] | [track] | ...**
+		<:Reply:986293903131050045>removes tracks from the specified playlist or removes the specified playlist itself
+		<:Reply:986293903131050045>if no tracks are specified, then the specified playlist itself will be removed
+
+		<:Reply:986293903131050045>by default, you can only delete your own user playlist and the server playlists that you have created
+		<:Reply:986293903131050045>server DJs can remove any set of tracks from any server playlist that is from the server that they are on
+		<:Reply:986293903131050045>meanwhile, server admins or members who have `Permission.MANAGE_SERVER` may remove an server playlist or tracks from such server playlists
+		**-** *name* - the name of the playlist to be removed or removed from
+		**-** *scope* - the scope or privacy level of the playlist to be removed or removed from
+		<:Reply:986293903131050045>this may be `server` or `private`
+		**-** *track* - the track(s) to be removed from the specified playlist
+		<:Reply:986293903131050045>this can be a URL or link towards a track, a search query in the form of `ytsearch: <name>`, or the position of a track in the playlist (example: `4`)
+
+		• **show <name> | [scope]**
+		<:Reply:986293903131050045>shows the contents of the specified playlist alongside some of its technical information
+		<:Reply:986293903131050045>example: `playlist show myplaylist | server`
+		<:Reply:986293903131050045>this shows the contents of the server playlist named `myplaylist`
+		**-** *pangalan* - the name of the playlist to be shown
+		<:Reply:986293903131050045>this is used in playing the playlist
+		**-** *sakop* - the scope or privacy level of the playlist to be shown
 		<:Reply:986293903131050045>this may be `server` or `private`
 		"
 	},

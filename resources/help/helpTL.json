@@ -672,7 +672,8 @@
 	"globalname":"play",
 	"category":"Musika",
 	"description":"**ipinatutugtog ang ibinigay na tugtog**",
-	"usage":"tugtog [playlist] <pangalan|URL>",
+	"usage":"tugtog [
+] <pangalan|URL>",
 	"options":
 		"
 		• **playlist**
@@ -718,12 +719,27 @@
 		• **lista**
 		<:Reply:986293903131050045>inililista ang lahat ng playlist na maaaring ipatugtog
 
-		• **tanggal <pangalan> | [sakop]**
-		<:Reply:986293903131050045>tinatanggal ang tinukoy na playlist
+		• **tanggal <pangalan> | [sakop] | [tugtog] | [tugtog] | ...**
+		<:Reply:986293903131050045>nagtatanggal ng mga tugtog mula sa tinukoy na playlist o tinatanggal ang tinukoy na playlist
+		<:Reply:986293903131050045>kapag walang tinukoy na mga tugtog na tatanggalin, mismong ang playlist na tinukoy ang tatanggalin
+
 		<:Reply:986293903131050045>maaari mo lamang tanggalin ang mga pansarili mong playlist (pribado) at ang mga pang-server na playlist na iyong idinagdag
-		<:Reply:986293903131050045>may kakayahan ang mga server admin o ang mga miyembro na may `Permission.MANAGE_SERVER` na magtanggal ng kahit na anong pang-server na playlist
+		<:Reply:986293903131050045>may kakayahan kang burahin o magbura mula sa mga pansarili mong playlist (pribado) at ang mga pang-server na playlist na iyong idinagdag
+		<:Reply:986293903131050045>may karagdagang kakayahan ang mga server DJ na magtanggal ng mga tugtog mula sa kahit na anong pang-server na playlist na mula sa kanilang server na kinabibilangan
+		<:Reply:986293903131050045>samantala, may kakayahan ang mga server admin o ang mga miyembro na may `Permission.MANAGE_SERVER` na magtanggal ng kahit na anong pang-server na playlist o magtanggal ng mga tugtog mula sa mga ito
 		**-** *pangalan* - ang pangalan ng playlist na tatanggalin
-		**-** *sakop* - ang sakop o pagkapribado ng playlist na tatanggalin
+		**-** *sakop* - ang sakop o pagkapribado ng playlist na tatanggalin o tatanggalan
+		<:Reply:986293903131050045>maaari itong `server` o `pribado`
+		**-** *tugtog* - ang (mga) tugtog na tatanggalin mula sa tinukoy na playlist
+		<:Reply:986293903131050045>maaari itong URL o link ng tugtog, search query na nasa anyong `ytsearch: <pangalan>`, o posisyon ng isang tugtog sa playlist (halimbawa: `4`)
+
+		• **ipakita <pangalan> | [sakop]**
+		<:Reply:986293903131050045>ipinakikita ang laman ng isang playlist kasama ang ilang teknikal nitong impormasyon
+		<:Reply:986293903131050045>halimbawa: `playlist ipakita myplaylist | server`
+		<:Reply:986293903131050045>ipinakikita nito ang laman ng pang-server na playlist na may pangalang `myplaylist`
+		**-** *pangalan* - ang pangalan ng playlist na ipakikita
+		<:Reply:986293903131050045>ito ang ginagamit sa pagpapatugtog ng playlist
+		**-** *sakop* - ang sakop o pagkapribado ng playlist na ipakikita
 		<:Reply:986293903131050045>maaari itong `server` o `pribado`
 		"
 	},
